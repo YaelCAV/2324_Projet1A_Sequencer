@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T19:47:10.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.1" etag="YILtTkOmgbLwsQUX24Ag" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-05T20:03:25.983Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="nxp1MucRBrLJrzWl3eYl" version="24.0.1" type="github">
   <diagram name="Page-1" id="sYEfiaPesxS0EKPbSw5M">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ds5KXczrTzGIJ0qFi2Sz-1" value="Processeur" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds5KXczrTzGIJ0qFi2Sz-2" value="Alimentation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds5KXczrTzGIJ0qFi2Sz-3" value="puce son" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds5KXczrTzGIJ0qFi2Sz-4" value="Boutons" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds5KXczrTzGIJ0qFi2Sz-8" value="Haut parleur" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds5KXczrTzGIJ0qFi2Sz-11" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ds5KXczrTzGIJ0qFi2Sz-2" target="Ds5KXczrTzGIJ0qFi2Sz-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="210" as="sourcePoint" />
+            <mxPoint x="440" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds5KXczrTzGIJ0qFi2Sz-12" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ds5KXczrTzGIJ0qFi2Sz-2" target="Ds5KXczrTzGIJ0qFi2Sz-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="90" as="sourcePoint" />
+            <mxPoint x="70" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds5KXczrTzGIJ0qFi2Sz-13" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.563;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ds5KXczrTzGIJ0qFi2Sz-2" target="Ds5KXczrTzGIJ0qFi2Sz-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="80" as="sourcePoint" />
+            <mxPoint x="80" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds5KXczrTzGIJ0qFi2Sz-14" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Ds5KXczrTzGIJ0qFi2Sz-2" target="Ds5KXczrTzGIJ0qFi2Sz-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="110" as="sourcePoint" />
+            <mxPoint x="90" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds5KXczrTzGIJ0qFi2Sz-15" value="Tap tempo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="450" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds5KXczrTzGIJ0qFi2Sz-16" value="Boutons séquence" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="450" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds5KXczrTzGIJ0qFi2Sz-17" value="Potentiomètres/&lt;div&gt;Sélecteurs&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="450" width="90" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
