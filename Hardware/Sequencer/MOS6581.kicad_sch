@@ -1323,6 +1323,7 @@
 	(hierarchical_label "A2"
 		(shape input)
 		(at 176.53 118.11 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1334,6 +1335,7 @@
 	(hierarchical_label "D5"
 		(shape bidirectional)
 		(at 176.53 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1345,6 +1347,7 @@
 	(hierarchical_label "D2"
 		(shape bidirectional)
 		(at 176.53 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1356,6 +1359,7 @@
 	(hierarchical_label "A1"
 		(shape input)
 		(at 176.53 120.65 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1367,6 +1371,7 @@
 	(hierarchical_label "D6"
 		(shape bidirectional)
 		(at 176.53 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1378,6 +1383,7 @@
 	(hierarchical_label "A0"
 		(shape input)
 		(at 176.53 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1389,6 +1395,7 @@
 	(hierarchical_label "D7"
 		(shape bidirectional)
 		(at 176.53 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1400,6 +1407,7 @@
 	(hierarchical_label "D0"
 		(shape bidirectional)
 		(at 176.53 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1411,6 +1419,7 @@
 	(hierarchical_label "A4"
 		(shape input)
 		(at 176.53 113.03 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1422,6 +1431,7 @@
 	(hierarchical_label "D1"
 		(shape bidirectional)
 		(at 176.53 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1433,6 +1443,7 @@
 	(hierarchical_label "D3"
 		(shape bidirectional)
 		(at 176.53 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1444,6 +1455,7 @@
 	(hierarchical_label "D4"
 		(shape bidirectional)
 		(at 176.53 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1455,6 +1467,7 @@
 	(hierarchical_label "A3"
 		(shape input)
 		(at 176.53 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
