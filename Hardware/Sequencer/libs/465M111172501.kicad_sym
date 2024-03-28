@@ -1,0 +1,238 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "465M111172501" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "S" (id 0) (at 0.64 4.9 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Value" "465M111172501" (id 1) (at -2.4 -7.5 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "465M111172501:465M111172501" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Wurth Electronics Inc." (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\nPUSHBUTTON SWITCH ILLUMINATED 15\n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "EMITTING-COLOR" "Red&Green&Blue" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/465M111172501/Wurth+Electronics+Inc/view-part/?ref=snap" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/465M111172501.pdf" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "465M111172501" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PART-NUMBER" "465M111172501" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "ELECTRICAL-LIFE" "1000000 times" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/465M111172501/Wurth+Electronics+Inc/view-part/?ref=eda" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "465M111172501_0_0"
+      (polyline
+        (pts (xy 0.635 1.905) (xy -1.27 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 2.54) (xy 0.635 3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 1.905) (xy -1.27 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 2.54) (xy -1.27 3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.635 1.905) (xy 0.635 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 2.54) (xy 0.635 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.635 2.54) (xy 0.635 3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.565 3.255) (xy -1.2 3.89)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.2 3.89) (xy -1.1 3.455)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.2 3.89) (xy -0.765 3.79)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.135 3.355) (xy -0.5 3.99)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.5 3.99) (xy -0.4 3.555)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.5 3.99) (xy -0.065 3.89)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.635 -0.635) (xy -1.27 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 0.0) (xy 0.635 0.635)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -0.635) (xy -1.27 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 0.0) (xy -1.27 0.635)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.635 -0.635) (xy 0.635 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 0.0) (xy 0.635 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.635 0.0) (xy 0.635 0.635)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.565 0.715) (xy -1.2 1.35)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.2 1.35) (xy -1.1 0.915)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.2 1.35) (xy -0.765 1.25)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.135 0.815) (xy -0.5 1.45)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.5 1.45) (xy -0.4 1.015)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.5 1.45) (xy -0.065 1.35)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.635 -3.175) (xy -1.27 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -2.54) (xy 0.635 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -3.175) (xy -1.27 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -2.54) (xy -1.27 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.635 -3.175) (xy 0.635 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -2.54) (xy 0.635 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.635 -2.54) (xy 0.635 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.565 -1.825) (xy -1.2 -1.19)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.2 -1.19) (xy -1.1 -1.625)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.2 -1.19) (xy -0.765 -1.29)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.135 -1.725) (xy -0.5 -1.09)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.5 -1.09) (xy -0.4 -1.525)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.5 -1.09) (xy -0.065 -1.19)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.35 -4.1) (xy 1.35 -4.1)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -2.54) (xy -1.27 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 0.0) (xy -1.27 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 2.54) (xy -1.27 2.54)) (stroke (width 0.254))
+      )
+      (circle (center -1.27 -5.08) (radius 0.508)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 1.27 -5.08) (radius 0.508)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (rectangle (start -0.570045801527 -4.95009160305) (end 4.50995419847 2.66990839695)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at 5.08 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "LC"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -5.08 -5.08 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 5.08 -5.08 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -5.08 2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "L1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -5.08 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "L2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -5.08 -2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "L3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

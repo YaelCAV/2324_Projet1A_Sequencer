@@ -711,6 +711,128 @@
 				)
 			)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -1067,16 +1189,46 @@
 		(uuid "29c4c3e1-256e-485e-b05e-0abfa63fd3a7")
 	)
 	(junction
+		(at 196.85 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3050969b-98de-4099-bffd-3a34bcf027d8")
+	)
+	(junction
+		(at 209.55 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c468b77-7efe-4c97-bcf7-fc3ebfe3cf62")
+	)
+	(junction
 		(at 105.41 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b270ee7c-f10c-4fdf-8db4-61bcc63a654d")
 	)
 	(junction
+		(at 132.08 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d91040e6-9e64-49eb-832e-d208ae11ed2a")
+	)
+	(junction
 		(at 105.41 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebd87fac-393e-4772-9400-5bcab070f0d4")
+	)
+	(no_connect
+		(at 176.53 81.28)
+		(uuid "63fb0691-4262-4e5a-9e36-a75b9141ee08")
+	)
+	(no_connect
+		(at 176.53 85.09)
+		(uuid "7f7c9894-be58-4396-9616-fc50efd4a769")
+	)
+	(no_connect
+		(at 176.53 87.63)
+		(uuid "91543492-e46b-42e9-9d3f-2444df3f621d")
 	)
 	(wire
 		(pts
@@ -1120,6 +1272,26 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 78.74) (xy 196.85 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37f1874e-7edc-4377-8c2d-265a2a25077f")
+	)
+	(wire
+		(pts
+			(xy 209.55 78.74) (xy 209.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49bb8e1d-dc5d-43d5-b410-d55b9db971e2")
+	)
+	(wire
+		(pts
 			(xy 133.35 38.1) (xy 143.51 38.1)
 		)
 		(stroke
@@ -1137,6 +1309,16 @@
 			(type default)
 		)
 		(uuid "4d4a7673-7b95-4f22-bce0-d0bf49d9236a")
+	)
+	(wire
+		(pts
+			(xy 132.08 116.84) (xy 133.35 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579c7527-940a-4efd-98ce-6512ff3d4e6a")
 	)
 	(wire
 		(pts
@@ -1167,6 +1349,16 @@
 			(type default)
 		)
 		(uuid "65b57cdb-4cc6-42f9-bbd8-81aca073293f")
+	)
+	(wire
+		(pts
+			(xy 209.55 83.82) (xy 196.85 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f98bbb-1b86-4e10-aec9-f5a2377168e5")
 	)
 	(wire
 		(pts
@@ -1217,6 +1409,16 @@
 			(type default)
 		)
 		(uuid "b72b28dd-ca46-4e91-b6d7-b19eb587d895")
+	)
+	(wire
+		(pts
+			(xy 204.47 78.74) (xy 196.85 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9738cc7-c50c-486f-9791-5635d6674260")
 	)
 	(wire
 		(pts
@@ -1280,6 +1482,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 123.19) (xy 132.08 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc01d98-0a68-483f-b006-5823ba38b046")
+	)
+	(wire
+		(pts
 			(xy 133.35 36.83) (xy 133.35 38.1)
 		)
 		(stroke
@@ -1298,27 +1510,29 @@
 		)
 		(uuid "fc46f923-fd68-491c-a170-8701a1492c43")
 	)
-	(global_label "AUDIO_OUT"
+	(hierarchical_label "CLK_1MHZ"
 		(shape input)
-		(at 176.53 78.74 0)
+		(at 133.35 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "6cd8c8f7-9b25-429e-9c36-c771a722aa18")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.7358 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "03025695-854f-418c-8e29-e356a824ca7c")
+	)
+	(hierarchical_label "Reset"
+		(shape input)
+		(at 133.35 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "3eb6c2d7-5b9d-4cfb-8e31-00053a5831d4")
 	)
 	(hierarchical_label "A2"
 		(shape input)
@@ -1391,6 +1605,18 @@
 			(justify left)
 		)
 		(uuid "857f3f8b-c15b-4e2e-8f0a-240ed4f971b5")
+	)
+	(hierarchical_label "MOS6581_Read{slash}Write"
+		(shape input)
+		(at 133.35 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c456bc2-2306-476f-af37-b813abe35b53")
 	)
 	(hierarchical_label "D7"
 		(shape bidirectional)
@@ -1486,7 +1712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02a16863-b844-4320-b2d6-9d697b7669b7")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR0202"
 			(at 105.41 53.34 0)
 			(effects
 				(font
@@ -1536,7 +1762,75 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/a12fff13-1dcf-4809-aa59-750b40435983"
-					(reference "#PWR0204")
+					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 207.01 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0690ab90-17f5-4039-8072-1e8ac6166566")
+		(property "Reference" "C207"
+			(at 207.0163 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 207.0163 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 207.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd46fb84-4350-4552-b49f-d7b2d698181c")
+		)
+		(pin "2"
+			(uuid "88532508-4c5c-4917-a05a-b41ecbcfd833")
+		)
+		(instances
+			(project "Sequencer"
+				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/a12fff13-1dcf-4809-aa59-750b40435983"
+					(reference "C207")
 					(unit 1)
 				)
 			)
@@ -1552,7 +1846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08b88c3e-7ff3-4b5e-a88a-1c9bee101dc1")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR0201"
 			(at 105.41 40.64 0)
 			(effects
 				(font
@@ -1602,7 +1896,7 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/a12fff13-1dcf-4809-aa59-750b40435983"
-					(reference "#PWR0205")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -1618,7 +1912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fd4ec33-2a71-422e-b532-bce43ac9dbcb")
-		(property "Reference" "C202"
+		(property "Reference" "C204"
 			(at 127 99.0662 0)
 			(effects
 				(font
@@ -1672,7 +1966,76 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/a12fff13-1dcf-4809-aa59-750b40435983"
-					(reference "C202")
+					(reference "C204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 196.85 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fd1ef20-d070-4b43-8ac8-02cf98b096cc")
+		(property "Reference" "R201"
+			(at 199.39 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 199.39 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 196.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b39436d-99ef-4dc4-8e75-e50a726fdae2")
+		)
+		(pin "1"
+			(uuid "09fb7a6b-2afa-4d9b-af55-99c171f6fae7")
+		)
+		(instances
+			(project "Sequencer"
+				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/a12fff13-1dcf-4809-aa59-750b40435983"
+					(reference "R201")
 					(unit 1)
 				)
 			)
@@ -1688,7 +2051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e8da098-c141-4f4e-a43d-a005e840a49e")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR0204"
 			(at 133.35 40.64 0)
 			(effects
 				(font
@@ -1738,7 +2101,7 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/a12fff13-1dcf-4809-aa59-750b40435983"
-					(reference "#PWR0206")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -1755,7 +2118,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d8a5004-d804-4bbd-b94e-966192e9ef82")
 		(property "Reference" "U201"
-			(at 154.94 71.12 0)
+			(at 154.94 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1763,7 +2126,7 @@
 			)
 		)
 		(property "Value" "MOS6581/6582/8580SID"
-			(at 154.94 73.66 0)
+			(at 154.94 71.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1780,7 +2143,7 @@
 			)
 		)
 		(property "Datasheet" "https://ccrma.stanford.edu/~chet/projects/tech_content/6581.pdf"
-			(at 140.97 67.31 0)
+			(at 154.94 73.66 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1899,7 +2262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "698c8d17-08a8-447a-bbba-e654b821ebe2")
-		(property "Reference" "C204"
+		(property "Reference" "C202"
 			(at 118.11 40.6462 0)
 			(effects
 				(font
@@ -1953,7 +2316,7 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/a12fff13-1dcf-4809-aa59-750b40435983"
-					(reference "C204")
+					(reference "C202")
 					(unit 1)
 				)
 			)
@@ -1969,7 +2332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c40aea6-b975-435b-8a99-4e5afc767bee")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR0205"
 			(at 137.16 78.74 0)
 			(effects
 				(font
@@ -2020,7 +2383,7 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/a12fff13-1dcf-4809-aa59-750b40435983"
-					(reference "#PWR0203")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -2036,7 +2399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77c2fbcc-2b84-4e38-b6a4-99e7bdbcb17d")
-		(property "Reference" "C201"
+		(property "Reference" "C203"
 			(at 127 88.9062 0)
 			(effects
 				(font
@@ -2090,7 +2453,7 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/a12fff13-1dcf-4809-aa59-750b40435983"
-					(reference "C201")
+					(reference "C203")
 					(unit 1)
 				)
 			)
@@ -2106,7 +2469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ae0a5ee-249d-4a95-9102-2c0d254edb82")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0203"
 			(at 132.08 130.81 0)
 			(effects
 				(font
@@ -2156,7 +2519,7 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/a12fff13-1dcf-4809-aa59-750b40435983"
-					(reference "#PWR0201")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -2233,6 +2596,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 209.55 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7760129-5e94-41be-8e72-36230916ecd5")
+		(property "Reference" "#PWR0207"
+			(at 209.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dca78fc7-34a4-4fec-a685-9321a47d0ed0")
+		)
+		(instances
+			(project "Sequencer"
+				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/a12fff13-1dcf-4809-aa59-750b40435983"
+					(reference "#PWR0207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 105.41 41.91 0)
 		(unit 1)
@@ -2242,7 +2671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce6dd00f-0349-4567-89c8-72ef569fcae7")
-		(property "Reference" "C203"
+		(property "Reference" "C201"
 			(at 107.95 40.6462 0)
 			(effects
 				(font
@@ -2296,7 +2725,7 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/a12fff13-1dcf-4809-aa59-750b40435983"
-					(reference "C203")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -2382,7 +2811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed374c03-a357-40f7-90ba-a57028d6169d")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR0206"
 			(at 137.16 82.55 0)
 			(effects
 				(font
@@ -2433,7 +2862,7 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/a12fff13-1dcf-4809-aa59-750b40435983"
-					(reference "#PWR0202")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)

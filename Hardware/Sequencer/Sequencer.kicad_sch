@@ -936,15 +936,6 @@
 			)
 		)
 	)
-	(bus_entry
-		(at 146.05 93.98)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f81c88ce-89e6-4e65-bcc0-46b40e2bcd85")
-	)
 	(global_label "LED1_B"
 		(shape input)
 		(at 318.77 137.16 180)
@@ -1043,7 +1034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a298ca3-aa64-4dee-bab8-876d2f5eae4e")
-		(property "Reference" "SW2"
+		(property "Reference" "SW101"
 			(at 312.42 102.87 0)
 			(effects
 				(font
@@ -1095,7 +1086,7 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366"
-					(reference "SW2")
+					(reference "SW101")
 					(unit 1)
 				)
 			)
@@ -1111,7 +1102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e054db2-0348-46ed-9f66-536d182ce90d")
-		(property "Reference" "LS1"
+		(property "Reference" "LS101"
 			(at 323.85 81.2799 0)
 			(effects
 				(font
@@ -1165,7 +1156,7 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366"
-					(reference "LS1")
+					(reference "LS101")
 					(unit 1)
 				)
 			)
@@ -1181,7 +1172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab1d13e6-65a8-435b-ac0a-06959f959ff5")
-		(property "Reference" "J1"
+		(property "Reference" "J101"
 			(at 316.23 60.3249 0)
 			(effects
 				(font
@@ -1235,7 +1226,7 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366"
-					(reference "J1")
+					(reference "J101")
 					(unit 1)
 				)
 			)
@@ -1251,7 +1242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb337b34-1a79-46a3-9480-2b5f5c6ff447")
-		(property "Reference" "D1"
+		(property "Reference" "D101"
 			(at 323.85 118.11 0)
 			(effects
 				(font
@@ -1311,14 +1302,14 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366"
-					(reference "D1")
+					(reference "D101")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 116.84 -24.13)
+		(at 106.68 33.02)
 		(size 90.17 43.18)
 		(fields_autoplaced yes)
 		(stroke
@@ -1330,7 +1321,7 @@
 		)
 		(uuid "3a3a9b01-b73b-4ccd-9cf4-ad4078db162d")
 		(property "Sheetname" "PSU"
-			(at 116.84 -24.8416 0)
+			(at 106.68 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1339,7 +1330,7 @@
 			)
 		)
 		(property "Sheetfile" "PSU.kicad_sch"
-			(at 116.84 19.6346 0)
+			(at 106.68 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,8 +1347,8 @@
 		)
 	)
 	(sheet
-		(at 25.4 83.82)
-		(size 63.5 69.85)
+		(at 36.83 87.63)
+		(size 38.1 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1368,7 +1359,7 @@
 		)
 		(uuid "58a1b0a2-45a8-4863-96ff-20bf9a75cbda")
 		(property "Sheetname" "Potar"
-			(at 25.4 83.1084 0)
+			(at 36.83 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1377,7 +1368,7 @@
 			)
 		)
 		(property "Sheetfile" "Potar.kicad_sch"
-			(at 25.4 154.2546 0)
+			(at 36.83 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +1385,7 @@
 		)
 	)
 	(sheet
-		(at 233.68 72.39)
+		(at 245.11 73.66)
 		(size 20.32 38.1)
 		(fields_autoplaced yes)
 		(stroke
@@ -1406,7 +1397,7 @@
 		)
 		(uuid "a12fff13-1dcf-4809-aa59-750b40435983")
 		(property "Sheetname" "MOS6581"
-			(at 233.68 71.6784 0)
+			(at 245.11 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1415,7 +1406,7 @@
 			)
 		)
 		(property "Sheetfile" "MOS6581.kicad_sch"
-			(at 233.68 111.0746 0)
+			(at 245.11 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1424,7 +1415,7 @@
 			)
 		)
 		(pin "A4" input
-			(at 233.68 74.93 180)
+			(at 245.11 76.2 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1434,7 +1425,7 @@
 			(uuid "2e2a8028-d22f-4d8f-9e43-159ece8fcc6c")
 		)
 		(pin "A2" input
-			(at 233.68 80.01 180)
+			(at 245.11 81.28 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1435,7 @@
 			(uuid "e8b5fae1-20d3-49cc-9727-94ab02e3fd9f")
 		)
 		(pin "A0" input
-			(at 233.68 85.09 180)
+			(at 245.11 86.36 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1445,7 @@
 			(uuid "5d8be620-acb1-4dfe-ac95-8509dd74836b")
 		)
 		(pin "A1" input
-			(at 233.68 82.55 180)
+			(at 245.11 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1464,7 +1455,7 @@
 			(uuid "b19672b7-aa0c-49b0-9084-539e718aa920")
 		)
 		(pin "A3" input
-			(at 233.68 77.47 180)
+			(at 245.11 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1474,7 +1465,7 @@
 			(uuid "986b7817-1243-4d14-af93-75d3e81a68b9")
 		)
 		(pin "D4" bidirectional
-			(at 233.68 100.33 180)
+			(at 245.11 101.6 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1484,7 +1475,7 @@
 			(uuid "7bc3f0e5-cd75-4bd8-aadb-a153e5b419db")
 		)
 		(pin "D2" bidirectional
-			(at 233.68 95.25 180)
+			(at 245.11 96.52 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1494,7 +1485,7 @@
 			(uuid "439da7d7-51a4-4c2a-83c0-38fe2ff0d515")
 		)
 		(pin "D0" bidirectional
-			(at 233.68 90.17 180)
+			(at 245.11 91.44 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +1495,7 @@
 			(uuid "d3f0997d-8947-41cc-a91d-c3174cdc8c71")
 		)
 		(pin "D1" bidirectional
-			(at 233.68 92.71 180)
+			(at 245.11 93.98 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1514,7 +1505,7 @@
 			(uuid "e29ea45a-2114-44fe-a2ff-9ee03f561c84")
 		)
 		(pin "D3" bidirectional
-			(at 233.68 97.79 180)
+			(at 245.11 99.06 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1524,7 +1515,7 @@
 			(uuid "981ad650-74e0-41b6-b8a1-dd412352b616")
 		)
 		(pin "D6" bidirectional
-			(at 233.68 105.41 180)
+			(at 245.11 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1534,7 +1525,7 @@
 			(uuid "89979654-3d43-44ca-997d-4fcd102c7a11")
 		)
 		(pin "D7" bidirectional
-			(at 233.68 107.95 180)
+			(at 245.11 109.22 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1544,7 +1535,7 @@
 			(uuid "d7cc4c6d-ad24-4055-8b3a-7623a6682a99")
 		)
 		(pin "D5" bidirectional
-			(at 233.68 102.87 180)
+			(at 245.11 104.14 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,8 +1553,8 @@
 		)
 	)
 	(sheet
-		(at 35.56 3.81)
-		(size 34.29 58.42)
+		(at 36.83 31.75)
+		(size 35.56 27.94)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1574,7 +1565,7 @@
 		)
 		(uuid "a53cf5d6-7d76-4909-bc26-231937405e3c")
 		(property "Sheetname" "GPIO_Expandeur"
-			(at 35.56 3.0984 0)
+			(at 36.83 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,7 +1574,7 @@
 			)
 		)
 		(property "Sheetfile" "GPIO_Expandeur.kicad_sch"
-			(at 35.56 62.8146 0)
+			(at 36.83 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1600,8 +1591,8 @@
 		)
 	)
 	(sheet
-		(at 111.76 40.64)
-		(size 92.71 102.87)
+		(at 107.95 95.25)
+		(size 92.71 55.88)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1612,7 +1603,7 @@
 		)
 		(uuid "b179dc3b-027e-4f32-a37c-fa31161fb5aa")
 		(property "Sheetname" "STM32-G474RE"
-			(at 111.76 39.9284 0)
+			(at 107.95 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1621,7 +1612,7 @@
 			)
 		)
 		(property "Sheetfile" "STM32-G474RE.kicad_sch"
-			(at 111.76 144.0946 0)
+			(at 107.95 151.7146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
