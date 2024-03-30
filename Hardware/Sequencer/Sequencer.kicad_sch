@@ -781,6 +781,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Omron_B3FS"
 			(pin_numbers hide)
 			(pin_names
@@ -936,9 +1038,143 @@
 			)
 		)
 	)
+	(junction
+		(at 38.1 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36e1317c-1550-4f54-bc0f-69900ec09dd9")
+	)
+	(junction
+		(at 38.1 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57fb5b7c-f7c7-4d3f-9ece-0d1378d30c84")
+	)
+	(junction
+		(at 38.1 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58f72186-d8cc-48d1-9a05-7262903c1deb")
+	)
+	(junction
+		(at 38.1 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebe07def-11a4-4a11-8880-7a95f9d57fca")
+	)
+	(wire
+		(pts
+			(xy 29.21 177.8) (xy 38.1 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cef1857-e418-4fef-bce3-88aa426b2e5a")
+	)
+	(wire
+		(pts
+			(xy 38.1 165.1) (xy 46.99 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e31e596-206f-4dac-aaec-ab92c98b172d")
+	)
+	(wire
+		(pts
+			(xy 38.1 152.4) (xy 46.99 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a89a048-cc1f-4964-808d-1c6c055a3cc1")
+	)
+	(wire
+		(pts
+			(xy 29.21 152.4) (xy 38.1 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3702c97d-cd88-449a-8535-c47bfc5fed7e")
+	)
+	(wire
+		(pts
+			(xy 29.21 165.1) (xy 38.1 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "441ef973-387e-414e-84a5-bd08e8333fc4")
+	)
+	(wire
+		(pts
+			(xy 38.1 152.4) (xy 38.1 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f2964ea-05d5-42d5-b5ed-bba6e4f3aa9c")
+	)
+	(wire
+		(pts
+			(xy 29.21 190.5) (xy 38.1 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69840d53-1083-4fe3-9f4a-7a6028c4f984")
+	)
+	(wire
+		(pts
+			(xy 38.1 177.8) (xy 46.99 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eee97e0-7845-4d18-b156-1d20358eede7")
+	)
+	(wire
+		(pts
+			(xy 38.1 190.5) (xy 46.99 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0333cc7-92ac-4774-857a-35e7b6bbcf48")
+	)
+	(wire
+		(pts
+			(xy 38.1 177.8) (xy 38.1 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4420b7f-df5e-44f3-8c4e-1d996424bf2d")
+	)
+	(wire
+		(pts
+			(xy 38.1 165.1) (xy 38.1 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf50df4-58d3-4420-ac37-0bafe9520f9a")
+	)
 	(global_label "LED1_B"
 		(shape input)
-		(at 318.77 137.16 180)
+		(at 241.3 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -948,7 +1184,7 @@
 		)
 		(uuid "2fe1f0c0-0a87-41a4-a981-5be6a821609a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 308.8906 137.16 0)
+			(at 231.4206 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -960,7 +1196,7 @@
 	)
 	(global_label "LED1_R"
 		(shape input)
-		(at 318.77 127 180)
+		(at 241.3 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -970,7 +1206,7 @@
 		)
 		(uuid "9332c955-ec4f-4d0e-b5a7-c71573b755a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 308.8906 127 0)
+			(at 231.4206 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -982,7 +1218,7 @@
 	)
 	(global_label "LED1_G"
 		(shape input)
-		(at 318.77 132.08 180)
+		(at 241.3 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -992,7 +1228,7 @@
 		)
 		(uuid "beae7c5c-afc9-414c-bd82-c5d676fd7a1a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 308.8906 132.08 0)
+			(at 231.4206 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1004,7 +1240,7 @@
 	)
 	(global_label "LED1_POWER"
 		(shape input)
-		(at 328.93 132.08 0)
+		(at 251.46 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1014,7 +1250,7 @@
 		)
 		(uuid "f815ff33-96f4-40ef-b7ef-5ca6ca398dc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 344.0103 132.08 0)
+			(at 266.5403 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1026,7 +1262,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
-		(at 312.42 110.49 0)
+		(at 234.95 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1035,7 +1271,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a298ca3-aa64-4dee-bab8-876d2f5eae4e")
 		(property "Reference" "SW101"
-			(at 312.42 102.87 0)
+			(at 234.95 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1043,7 +1279,7 @@
 			)
 		)
 		(property "Value" "SW_Omron_B3FS"
-			(at 312.42 105.41 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1051,7 +1287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 312.42 105.41 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1060,7 +1296,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 312.42 105.41 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1069,7 +1305,7 @@
 			)
 		)
 		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 312.42 110.49 0)
+			(at 234.95 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1093,35 +1329,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Speaker")
-		(at 318.77 81.28 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 26.67 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8e054db2-0348-46ed-9f66-536d182ce90d")
-		(property "Reference" "LS101"
-			(at 323.85 81.2799 0)
+		(uuid "5d02040d-6e75-482b-8be9-796cb7a52e29")
+		(property "Reference" "H102"
+			(at 25.4 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Speaker"
-			(at 323.85 83.8199 0)
+		(property "Value" "MountingHole_Pad"
+			(at 25.4 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 318.77 86.36 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 26.67 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1130,7 +1364,206 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 318.516 82.55 0)
+			(at 26.67 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 26.67 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb9f39fe-cd35-4056-a42c-116fa066371d")
+		)
+		(instances
+			(project "Sequencer"
+				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366"
+					(reference "H102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 26.67 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f420c04-593f-46e9-86d9-40109e6da671")
+		(property "Reference" "H104"
+			(at 25.4 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 25.4 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 26.67 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 26.67 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90949bfa-f4f1-4dfd-86c2-c108c0cfbbea")
+		)
+		(instances
+			(project "Sequencer"
+				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366"
+					(reference "H104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 49.53 190.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "868c4f35-75ed-42f6-b9f2-03f92e7838bf")
+		(property "Reference" "H105"
+			(at 53.34 189.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 53.34 191.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 49.53 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 49.53 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aed6e215-0d79-474d-8563-8feb58451b6d")
+		)
+		(instances
+			(project "Sequencer"
+				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366"
+					(reference "H105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Speaker")
+		(at 241.3 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e054db2-0348-46ed-9f66-536d182ce90d")
+		(property "Reference" "LS101"
+			(at 246.38 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Speaker"
+			(at 246.38 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.046 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1139,7 +1572,7 @@
 			)
 		)
 		(property "Description" "Speaker"
-			(at 318.77 81.28 0)
+			(at 241.3 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1164,7 +1597,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack2")
-		(at 311.15 60.96 180)
+		(at 233.68 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1173,7 +1606,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab1d13e6-65a8-435b-ac0a-06959f959ff5")
 		(property "Reference" "J101"
-			(at 316.23 60.3249 0)
+			(at 238.76 65.4049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,7 +1615,7 @@
 			)
 		)
 		(property "Value" "AudioJack2"
-			(at 316.23 62.8649 0)
+			(at 238.76 67.9449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1191,7 +1624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 311.15 60.96 0)
+			(at 233.68 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1200,7 +1633,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 311.15 60.96 0)
+			(at 233.68 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1209,7 +1642,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 311.15 60.96 0)
+			(at 233.68 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,35 +1666,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ARBG")
-		(at 323.85 132.08 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 49.53 152.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eb337b34-1a79-46a3-9480-2b5f5c6ff447")
-		(property "Reference" "D101"
-			(at 323.85 118.11 0)
+		(uuid "aca18d0b-c980-466e-8544-640d493da4fe")
+		(property "Reference" "H108"
+			(at 53.34 151.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "LED_ARBG"
-			(at 323.85 120.65 0)
+		(property "Value" "MountingHole_Pad"
+			(at 53.34 153.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 323.85 133.35 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 49.53 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1270,7 +1703,273 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 323.85 133.35 0)
+			(at 49.53 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 49.53 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "000b292e-e543-4fb0-9447-b8234d2060a3")
+		)
+		(instances
+			(project "Sequencer"
+				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366"
+					(reference "H108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 49.53 177.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3aba66e-4003-4fc0-ac2f-e5adecad8584")
+		(property "Reference" "H106"
+			(at 53.34 176.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 53.34 179.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 49.53 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 49.53 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bc67180-2386-4fc4-b48f-27edbcf40773")
+		)
+		(instances
+			(project "Sequencer"
+				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366"
+					(reference "H106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 49.53 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2217026-5c7d-4351-8f01-5457c5594c39")
+		(property "Reference" "H107"
+			(at 53.34 163.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 53.34 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 49.53 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 49.53 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23d3b3a1-5956-4f83-9d15-8d06d71ce3e4")
+		)
+		(instances
+			(project "Sequencer"
+				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366"
+					(reference "H107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 26.67 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e98688da-99e6-4bfe-b643-50eebe7122ad")
+		(property "Reference" "H101"
+			(at 25.4 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 25.4 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 26.67 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 26.67 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95cfc8f1-d1d4-4b99-aeb3-891a36f7db63")
+		)
+		(instances
+			(project "Sequencer"
+				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366"
+					(reference "H101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARBG")
+		(at 246.38 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb337b34-1a79-46a3-9480-2b5f5c6ff447")
+		(property "Reference" "D101"
+			(at 246.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED_ARBG"
+			(at 246.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +1978,7 @@
 			)
 		)
 		(property "Description" "RGB LED, anode/red/blue/green"
-			(at 323.85 132.08 0)
+			(at 246.38 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1303,6 +2002,71 @@
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366"
 					(reference "D101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 26.67 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec6883ad-603d-4dc1-853f-cf840134d486")
+		(property "Reference" "H103"
+			(at 25.4 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 25.4 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 26.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 26.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c1f93d2-72de-4100-be60-7c2ae84d86f1")
+		)
+		(instances
+			(project "Sequencer"
+				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366"
+					(reference "H103")
 					(unit 1)
 				)
 			)
@@ -1385,7 +2149,7 @@
 		)
 	)
 	(sheet
-		(at 245.11 73.66)
+		(at 223.52 15.24)
 		(size 20.32 38.1)
 		(fields_autoplaced yes)
 		(stroke
@@ -1397,7 +2161,7 @@
 		)
 		(uuid "a12fff13-1dcf-4809-aa59-750b40435983")
 		(property "Sheetname" "MOS6581"
-			(at 245.11 72.9484 0)
+			(at 223.52 14.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1406,7 +2170,7 @@
 			)
 		)
 		(property "Sheetfile" "MOS6581.kicad_sch"
-			(at 245.11 112.3446 0)
+			(at 223.52 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1415,7 +2179,7 @@
 			)
 		)
 		(pin "A4" input
-			(at 245.11 76.2 180)
+			(at 223.52 17.78 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1425,7 +2189,7 @@
 			(uuid "2e2a8028-d22f-4d8f-9e43-159ece8fcc6c")
 		)
 		(pin "A2" input
-			(at 245.11 81.28 180)
+			(at 223.52 22.86 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,7 +2199,7 @@
 			(uuid "e8b5fae1-20d3-49cc-9727-94ab02e3fd9f")
 		)
 		(pin "A0" input
-			(at 245.11 86.36 180)
+			(at 223.52 27.94 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1445,7 +2209,7 @@
 			(uuid "5d8be620-acb1-4dfe-ac95-8509dd74836b")
 		)
 		(pin "A1" input
-			(at 245.11 83.82 180)
+			(at 223.52 25.4 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1455,7 +2219,7 @@
 			(uuid "b19672b7-aa0c-49b0-9084-539e718aa920")
 		)
 		(pin "A3" input
-			(at 245.11 78.74 180)
+			(at 223.52 20.32 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,7 +2229,7 @@
 			(uuid "986b7817-1243-4d14-af93-75d3e81a68b9")
 		)
 		(pin "D4" bidirectional
-			(at 245.11 101.6 180)
+			(at 223.52 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1475,7 +2239,7 @@
 			(uuid "7bc3f0e5-cd75-4bd8-aadb-a153e5b419db")
 		)
 		(pin "D2" bidirectional
-			(at 245.11 96.52 180)
+			(at 223.52 38.1 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1485,7 +2249,7 @@
 			(uuid "439da7d7-51a4-4c2a-83c0-38fe2ff0d515")
 		)
 		(pin "D0" bidirectional
-			(at 245.11 91.44 180)
+			(at 223.52 33.02 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,7 +2259,7 @@
 			(uuid "d3f0997d-8947-41cc-a91d-c3174cdc8c71")
 		)
 		(pin "D1" bidirectional
-			(at 245.11 93.98 180)
+			(at 223.52 35.56 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +2269,7 @@
 			(uuid "e29ea45a-2114-44fe-a2ff-9ee03f561c84")
 		)
 		(pin "D3" bidirectional
-			(at 245.11 99.06 180)
+			(at 223.52 40.64 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1515,7 +2279,7 @@
 			(uuid "981ad650-74e0-41b6-b8a1-dd412352b616")
 		)
 		(pin "D6" bidirectional
-			(at 245.11 106.68 180)
+			(at 223.52 48.26 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1525,7 +2289,7 @@
 			(uuid "89979654-3d43-44ca-997d-4fcd102c7a11")
 		)
 		(pin "D7" bidirectional
-			(at 245.11 109.22 180)
+			(at 223.52 50.8 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1535,7 +2299,7 @@
 			(uuid "d7cc4c6d-ad24-4055-8b3a-7623a6682a99")
 		)
 		(pin "D5" bidirectional
-			(at 245.11 104.14 180)
+			(at 223.52 45.72 180)
 			(effects
 				(font
 					(size 1.27 1.27)

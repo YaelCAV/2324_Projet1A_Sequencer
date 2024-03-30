@@ -3129,6 +3129,165 @@
 		)
 	)
 	(symbol
+		(lib_id "Interface_Expansion:MCP23017_SP")
+		(at 77.47 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eb329c3-6b44-4134-a955-1ee75f504f8a")
+		(property "Reference" "U401"
+			(at 79.6641 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP23017_SP"
+			(at 79.6641 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm"
+			(at 82.55 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/devicedoc/20001952c.pdf"
+			(at 82.55 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCP23017-E/SO"
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "28"
+			(uuid "cc1f573b-1173-406c-8bba-2284b9a5e67c")
+		)
+		(pin "11"
+			(uuid "283836c3-8691-4a47-a822-f48e8fa27757")
+		)
+		(pin "3"
+			(uuid "53239847-3776-4368-8f3a-2d601a3b39db")
+		)
+		(pin "4"
+			(uuid "46c0c62d-6702-4a87-9085-b24d40ca4938")
+		)
+		(pin "12"
+			(uuid "eb28360d-c652-40bf-bba3-d7d0861ce38e")
+		)
+		(pin "6"
+			(uuid "7da9334b-9557-4b1b-8488-ed631b33a976")
+		)
+		(pin "19"
+			(uuid "a1528c91-e698-44c0-91fa-9eed269e8721")
+		)
+		(pin "7"
+			(uuid "1ee0b895-a856-4a18-aa54-28a2a97d0200")
+		)
+		(pin "9"
+			(uuid "a960dca1-6d6e-4dfb-b346-83835027e8ca")
+		)
+		(pin "5"
+			(uuid "5d6f2a1d-543b-4107-ab8f-55b2a7de0995")
+		)
+		(pin "10"
+			(uuid "f91000c8-d8f3-40bd-814c-bf7b5fe3033d")
+		)
+		(pin "17"
+			(uuid "07643488-45a2-4ad5-ab56-9504ce229ded")
+		)
+		(pin "15"
+			(uuid "af39f7f9-6ad0-44b5-9f16-f88a7a510917")
+		)
+		(pin "25"
+			(uuid "910b00f6-063a-44ae-b161-ed34e4ba5b32")
+		)
+		(pin "20"
+			(uuid "6ef7a238-477e-4c72-befe-acdef4619d8f")
+		)
+		(pin "8"
+			(uuid "6dd0e64f-fef7-497d-be29-784b32bb61d9")
+		)
+		(pin "1"
+			(uuid "3c5e661a-81da-46d1-9940-54bd41efab9a")
+		)
+		(pin "13"
+			(uuid "1f2d40c1-9bdc-4316-97fc-e4be371a12b2")
+		)
+		(pin "14"
+			(uuid "1c813a9b-58e7-4e9a-a400-2ebd674c0036")
+		)
+		(pin "18"
+			(uuid "81357607-d9fa-4623-bf45-9896b636e758")
+		)
+		(pin "2"
+			(uuid "d743bdc5-8694-47ca-9e39-b9d49cb8b600")
+		)
+		(pin "21"
+			(uuid "2e64698f-f808-46eb-9175-b6d69039b490")
+		)
+		(pin "22"
+			(uuid "e9847d1d-8cc6-43c8-a200-9bb833f295e8")
+		)
+		(pin "16"
+			(uuid "9bf3cfe4-eaf7-41ac-aa0d-48006671e239")
+		)
+		(pin "23"
+			(uuid "4896a6b0-a9d9-4f96-b30b-d6eed51455ed")
+		)
+		(pin "24"
+			(uuid "72026ff8-f77d-4e6d-a08d-896930e3646f")
+		)
+		(pin "26"
+			(uuid "88783875-5eef-4ed0-842c-15cd54807f63")
+		)
+		(pin "27"
+			(uuid "024dbfbd-2dae-47ec-af4e-3a00bbb9ff06")
+		)
+		(instances
+			(project "Sequencer"
+				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/a53cf5d6-7d76-4909-bc26-231937405e3c"
+					(reference "U401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 115.57 130.81 90)
 		(unit 1)
@@ -3154,7 +3313,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 115.57 130.81 0)
 			(effects
 				(font
@@ -3222,7 +3381,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 115.57 143.51 0)
 			(effects
 				(font
@@ -3292,7 +3451,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
+		(property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm"
 			(at 104.14 78.74 0)
 			(effects
 				(font
@@ -3302,7 +3461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/devicedoc/20001952c.pdf"
 			(at 104.14 81.28 0)
 			(effects
 				(font
@@ -3313,6 +3472,15 @@
 			)
 		)
 		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
+			(at 99.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCP23017-E/SO"
 			(at 99.06 53.34 0)
 			(effects
 				(font
@@ -4274,156 +4442,6 @@
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/a53cf5d6-7d76-4909-bc26-231937405e3c"
 					(reference "#PWR0403")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_Expansion:MCP23017_SP")
-		(at 77.47 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4fcc26e8-7fb7-4bf3-bcb7-95c2a6d1591d")
-		(property "Reference" "U401"
-			(at 79.6641 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP23017_SP"
-			(at 79.6641 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
-			(at 82.55 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf"
-			(at 82.55 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
-			(at 77.47 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "28"
-			(uuid "6689fa0f-665d-4053-a359-2dc9c3948113")
-		)
-		(pin "11"
-			(uuid "4f91056b-b824-4925-8dd4-18d62a72f8c1")
-		)
-		(pin "3"
-			(uuid "068a5b2b-4581-4256-9c5f-54ef6244542d")
-		)
-		(pin "4"
-			(uuid "d9b60fec-5d00-48ec-86b5-c9f21d775ca5")
-		)
-		(pin "12"
-			(uuid "5cc3a2b3-2b24-4776-b1d5-954a3ca0dbc1")
-		)
-		(pin "6"
-			(uuid "60895c9d-a987-4b7c-99ac-6870e7b61a78")
-		)
-		(pin "19"
-			(uuid "41f7d625-cc21-4882-863f-b57ea6976f11")
-		)
-		(pin "7"
-			(uuid "c88795d6-aa71-4232-a10e-3a538da7161d")
-		)
-		(pin "9"
-			(uuid "e6880012-28ea-469f-b226-7a2c87afb227")
-		)
-		(pin "5"
-			(uuid "376503fa-afbb-44b1-9059-b5c6dba57124")
-		)
-		(pin "10"
-			(uuid "5d6a01cb-5bd8-4b3c-a3eb-d709e881cc8a")
-		)
-		(pin "17"
-			(uuid "4806fa17-478c-49ab-a4eb-2dfa41654299")
-		)
-		(pin "15"
-			(uuid "78b26f41-a3db-40c1-b8d9-31203b236480")
-		)
-		(pin "25"
-			(uuid "675988e6-cc36-47d6-9023-b04a3b3b9cc6")
-		)
-		(pin "20"
-			(uuid "c40e3046-0003-46b3-8c99-6a6b5f827260")
-		)
-		(pin "8"
-			(uuid "3f90de05-a94b-4237-9154-c9549cfac69f")
-		)
-		(pin "1"
-			(uuid "258790c9-910e-4e67-9bfb-1cfde22865f2")
-		)
-		(pin "13"
-			(uuid "d406916c-1974-4465-a78f-6d2d572d3464")
-		)
-		(pin "14"
-			(uuid "c337b558-0a1a-42db-917d-d8cf282eb263")
-		)
-		(pin "18"
-			(uuid "d3e7f775-40fd-48c6-88ab-1d4a5ad58469")
-		)
-		(pin "2"
-			(uuid "7da1d473-d873-438c-ac4c-66875bc435e0")
-		)
-		(pin "21"
-			(uuid "5de32018-1de3-4bd0-b8f0-f70f55c0291b")
-		)
-		(pin "22"
-			(uuid "1602872a-4759-4dc7-b399-1a429156f2cd")
-		)
-		(pin "16"
-			(uuid "e93bd29f-fbc1-4fd7-be03-f94216113905")
-		)
-		(pin "23"
-			(uuid "66027151-8828-4f92-b889-5447e791e0e3")
-		)
-		(pin "24"
-			(uuid "c986f096-187d-4290-beb5-4103eb8d3452")
-		)
-		(pin "26"
-			(uuid "5c16c75e-1774-422c-b5c1-9f72524734c8")
-		)
-		(pin "27"
-			(uuid "7977a553-c560-4b73-b2b2-ff1610e17d3e")
-		)
-		(instances
-			(project "Sequencer"
-				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/a53cf5d6-7d76-4909-bc26-231937405e3c"
-					(reference "U401")
 					(unit 1)
 				)
 			)
@@ -6421,7 +6439,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.92 110.49 0)
 			(effects
 				(font
