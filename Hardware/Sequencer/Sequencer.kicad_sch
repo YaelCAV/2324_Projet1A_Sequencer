@@ -739,7 +739,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 140.97) (xy 151.13 140.97)
+			(xy 143.51 143.51) (xy 154.94 143.51)
 		)
 		(stroke
 			(width 0)
@@ -819,7 +819,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 140.97) (xy 151.13 128.27)
+			(xy 154.94 143.51) (xy 154.94 128.27)
 		)
 		(stroke
 			(width 0)
@@ -909,7 +909,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 128.27) (xy 177.8 151.13)
+			(xy 177.8 128.27) (xy 177.8 156.21)
 		)
 		(stroke
 			(width 0)
@@ -926,6 +926,16 @@
 			(type default)
 		)
 		(uuid "3cb16203-8f42-4882-9c34-fe3ecf2df4f5")
+	)
+	(wire
+		(pts
+			(xy 180.34 128.27) (xy 180.34 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d35e6e2-691a-4351-89af-729f0602be8e")
 	)
 	(wire
 		(pts
@@ -1019,7 +1029,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 143.51) (xy 154.94 128.27)
+			(xy 151.13 140.97) (xy 151.13 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1059,7 +1069,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 153.67) (xy 180.34 153.67)
+			(xy 143.51 151.13) (xy 167.64 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1076,6 +1086,16 @@
 			(type default)
 		)
 		(uuid "64f537da-d527-498c-9d82-cf82027b19c4")
+	)
+	(wire
+		(pts
+			(xy 180.34 158.75) (xy 143.51 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68fe60ad-add5-43dc-b746-dd4a05071ede")
 	)
 	(wire
 		(pts
@@ -1119,7 +1139,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 153.67) (xy 180.34 128.27)
+			(xy 167.64 151.13) (xy 167.64 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1239,7 +1259,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 151.13) (xy 177.8 151.13)
+			(xy 143.51 156.21) (xy 177.8 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1249,7 +1269,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 143.51) (xy 154.94 143.51)
+			(xy 143.51 140.97) (xy 151.13 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1266,6 +1286,16 @@
 			(type default)
 		)
 		(uuid "b0a83dc0-7f82-470f-aa9d-94bc930e5da8")
+	)
+	(wire
+		(pts
+			(xy 170.18 153.67) (xy 143.51 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5213bea-c890-48d8-aa0b-a30470975784")
 	)
 	(wire
 		(pts
@@ -1336,6 +1366,16 @@
 			(type default)
 		)
 		(uuid "d27c8f5e-06d3-454a-a9a7-23c22cc3aefd")
+	)
+	(wire
+		(pts
+			(xy 170.18 128.27) (xy 170.18 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e9855d-efa6-4d8f-a7a4-cf95c2fc3317")
 	)
 	(wire
 		(pts
@@ -2851,7 +2891,7 @@
 			)
 			(uuid "3e8e5cd3-357a-4416-8b64-a750211a1fac")
 		)
-		(pin "SDA LED_Driver" input
+		(pin "SCL_0_3_11_8" input
 			(at 143.51 151.13 0)
 			(effects
 				(font
@@ -2859,9 +2899,9 @@
 				)
 				(justify right)
 			)
-			(uuid "fe65e463-2a10-4196-a338-9ae68c80cea0")
+			(uuid "1e8c2453-9a21-47fe-8a32-fa5111129e46")
 		)
-		(pin "SCK LED_Driver" input
+		(pin "SCL_4_7_15_12" input
 			(at 143.51 153.67 0)
 			(effects
 				(font
@@ -2869,7 +2909,27 @@
 				)
 				(justify right)
 			)
-			(uuid "ebb62f01-cce6-438b-a89a-719fac775659")
+			(uuid "eb5bec62-8679-46c8-b32f-c5b51b490d95")
+		)
+		(pin "SDA_0_3_11_8" input
+			(at 143.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b723723e-42a5-4b02-87b0-9d3b2986988b")
+		)
+		(pin "SDA_4_7_15_12" input
+			(at 143.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "936f78c3-ef83-4e7d-a260-1f4c01d3e997")
 		)
 		(instances
 			(project "Sequencer"
@@ -2990,7 +3050,7 @@
 			(uuid "82d83856-b4d3-4fdf-8f6c-80734e57b4ee")
 		)
 		(pin "I2C_3_SCL" input
-			(at 154.94 128.27 270)
+			(at 151.13 128.27 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,7 +3060,7 @@
 			(uuid "b4b10e4d-be26-4a49-9803-fd65096ec0c4")
 		)
 		(pin "I2C_2_SCL" input
-			(at 163.83 128.27 270)
+			(at 170.18 128.27 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3010,7 +3070,7 @@
 			(uuid "ebc920c1-6192-45a2-b5e6-e581a8b9666f")
 		)
 		(pin "I2C_3_SDA" input
-			(at 151.13 128.27 270)
+			(at 154.94 128.27 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,7 +3140,7 @@
 			(uuid "fa8f1178-bfb5-4301-8bb3-d9ad04c2aabc")
 		)
 		(pin "I2C_1_SCL" input
-			(at 180.34 128.27 270)
+			(at 167.64 128.27 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3180,7 @@
 			(uuid "02cbe579-5cf1-44ea-9b43-5d207d037406")
 		)
 		(pin "I2C_2_SDA" input
-			(at 160.02 128.27 270)
+			(at 180.34 128.27 270)
 			(effects
 				(font
 					(size 1.27 1.27)
