@@ -1533,22 +1533,22 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_DIP_x01"
+		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 3.81 0)
+				(at 0 4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_DIP_x01"
-				(at 0 -3.81 0)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1573,7 +1573,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(property "Description" "Switch, single pole double throw"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1582,7 +1582,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "dip switch"
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1591,16 +1591,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW?DIP?x1*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_DIP_x01_0_0"
+			(symbol "SW_SPDT_0_0"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -1612,20 +1603,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.524 0.127) (xy 2.3622 1.1684)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
-					(center 2.032 0)
+					(center 2.032 -2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -1636,24 +1615,36 @@
 					)
 				)
 			)
-			(symbol "SW_DIP_x01_0_1"
-				(rectangle
-					(start -3.81 2.54)
-					(end 3.81 -2.54)
+			(symbol "SW_SPDT_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.651 2.286)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
-			(symbol "SW_DIP_x01_1_1"
+			(symbol "SW_SPDT_1_1"
 				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1669,9 +1660,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1679,6 +1670,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2006,6 +2015,126 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
 					(length 0)
 					(name "~"
 						(effects
@@ -2359,16 +2488,6 @@
 		)
 		(uuid "f38bd4d1-19bc-4484-9415-af32c44aa279")
 	)
-	(text "!!SWITCH FIND REF!!\n"
-		(exclude_from_sim no)
-		(at 49.784 94.488 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e91a662f-da91-4f68-95b2-8460e15b77f3")
-	)
 	(label "D+"
 		(at 127 143.51 180)
 		(fields_autoplaced yes)
@@ -2447,7 +2566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25953d44-d366-41af-b185-b0b040d05a54")
-		(property "Reference" "#PWR0604"
+		(property "Reference" "#PWR0609"
 			(at 129.54 77.47 0)
 			(effects
 				(font
@@ -2497,7 +2616,7 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/3a3a9b01-b73b-4ccd-9cf4-ad4078db162d"
-					(reference "#PWR0604")
+					(reference "#PWR0609")
 					(unit 1)
 				)
 			)
@@ -2519,7 +2638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36dbb30a-6799-4ea6-a1b1-cd4954daaf34")
-		(property "Reference" "#PWR0602"
+		(property "Reference" "#PWR0604"
 			(at 100.33 77.47 0)
 			(effects
 				(font
@@ -2569,13 +2688,80 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/3a3a9b01-b73b-4ccd-9cf4-ad4078db162d"
-					(reference "#PWR0602")
+					(reference "#PWR0604")
 					(unit 1)
 				)
 			)
 			(project "PSU"
 				(path "/f401893a-11a3-4ab1-bc5f-f13016997d2d"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36f9cb40-8ce6-44d3-9a66-f321f7eff9dd")
+		(property "Reference" "#PWR0603"
+			(at 80.01 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eefe9e8b-99b9-4841-94af-134f6158eb64")
+		)
+		(instances
+			(project "Sequencer"
+				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/3a3a9b01-b73b-4ccd-9cf4-ad4078db162d"
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)
@@ -2591,7 +2777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37cb1414-8527-4120-bb7c-fd946992fd23")
-		(property "Reference" "#PWR0603"
+		(property "Reference" "#PWR0607"
 			(at 115.57 93.98 0)
 			(effects
 				(font
@@ -2641,7 +2827,7 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/3a3a9b01-b73b-4ccd-9cf4-ad4078db162d"
-					(reference "#PWR0603")
+					(reference "#PWR0607")
 					(unit 1)
 				)
 			)
@@ -2663,7 +2849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4106c01c-c65b-4a91-9c55-2d5552d4af5f")
-		(property "Reference" "U602"
+		(property "Reference" "U601"
 			(at 115.57 67.31 0)
 			(effects
 				(font
@@ -2718,7 +2904,153 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/3a3a9b01-b73b-4ccd-9cf4-ad4078db162d"
-					(reference "U602")
+					(reference "U601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 156.21 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7498985f-0612-4deb-a495-6b1766134c68")
+		(property "Reference" "#PWR0612"
+			(at 156.21 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 156.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 156.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c51b8c3-b0eb-4eaa-b5c9-bd5317ed9cb4")
+		)
+		(instances
+			(project "Sequencer"
+				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/3a3a9b01-b73b-4ccd-9cf4-ad4078db162d"
+					(reference "#PWR0612")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 68.58 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77c739fd-cf67-4dd3-b5e9-4abda896ab5a")
+		(property "Reference" "SW601"
+			(at 68.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 68.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:472121010111"
+			(at 68.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 68.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "472121010111"
+			(at 68.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9d0baa77-b9c4-4303-9201-5fd729fc3354")
+		)
+		(pin "1"
+			(uuid "8fb0ac8c-fa06-4a99-91b1-abb4b58481fa")
+		)
+		(pin "2"
+			(uuid "4b454f34-1897-4eea-9c89-f3e09ca28ce9")
+		)
+		(instances
+			(project "Sequencer"
+				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/3a3a9b01-b73b-4ccd-9cf4-ad4078db162d"
+					(reference "SW601")
 					(unit 1)
 				)
 			)
@@ -2734,7 +3066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cacbf12-1e95-44b9-b64c-201f4d5e13f9")
-		(property "Reference" "#PWR0609"
+		(property "Reference" "#PWR0613"
 			(at 156.21 153.67 0)
 			(effects
 				(font
@@ -2784,7 +3116,7 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/3a3a9b01-b73b-4ccd-9cf4-ad4078db162d"
-					(reference "#PWR0609")
+					(reference "#PWR0613")
 					(unit 1)
 				)
 			)
@@ -2904,141 +3236,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 55.88 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87375c77-0936-4187-8bc7-dd65782b2256")
-		(property "Reference" "#PWR046"
-			(at 52.07 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 59.69 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 55.88 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c75b483e-ecf8-4663-bc02-d55b53b0b732")
-		)
-		(instances
-			(project "Sequencer"
-				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/3a3a9b01-b73b-4ccd-9cf4-ad4078db162d"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DIP_x01")
-		(at 48.26 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c6fa464-e9e3-4c15-8535-80ad4ef28188")
-		(property "Reference" "SW1"
-			(at 48.26 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DIP_x01"
-			(at 48.26 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 48.26 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9bcf884-1f14-44fd-a813-6dc08c43ab94")
-		)
-		(pin "2"
-			(uuid "4a142bc2-ad49-4127-bb46-1b67c8a1a11d")
-		)
-		(instances
-			(project "Sequencer"
-				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/3a3a9b01-b73b-4ccd-9cf4-ad4078db162d"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
 		(at 156.21 139.7 0)
 		(unit 1)
@@ -3048,7 +3245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f50a3bc-849b-47d1-8686-8b90f7dbf436")
-		(property "Reference" "U601"
+		(property "Reference" "U602"
 			(at 157.8611 132.08 0)
 			(effects
 				(font
@@ -3117,7 +3314,7 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/3a3a9b01-b73b-4ccd-9cf4-ad4078db162d"
-					(reference "U601")
+					(reference "U602")
 					(unit 1)
 				)
 			)
@@ -3133,7 +3330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90e1a379-9a3c-4fa5-9a4c-9faf1d589883")
-		(property "Reference" "#PWR0608"
+		(property "Reference" "#PWR0606"
 			(at 105.41 171.45 0)
 			(effects
 				(font
@@ -3183,7 +3380,7 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/3a3a9b01-b73b-4ccd-9cf4-ad4078db162d"
-					(reference "#PWR0608")
+					(reference "#PWR0606")
 					(unit 1)
 				)
 			)
@@ -3333,17 +3530,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 40.64 106.68 90)
+		(lib_id "power:VBUS")
+		(at 73.66 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aaa0119e-138b-463d-8830-f563464ba015")
-		(property "Reference" "#PWR045"
-			(at 44.45 106.68 0)
+		(uuid "b32fd8f9-be74-4df9-ad70-82358e5d70e8")
+		(property "Reference" "#PWR0602"
+			(at 69.85 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3351,8 +3548,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 36.83 106.6799 90)
+		(property "Value" "VBUS"
+			(at 77.47 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,7 +3558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 106.68 0)
+			(at 73.66 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 106.68 0)
+			(at 73.66 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3378,8 +3575,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 40.64 106.68 0)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 73.66 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,12 +3585,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "47386617-6908-4fd4-9388-6847fc9c5e43")
+			(uuid "1cfa4de1-c3d6-4ebf-b943-907efb8fd032")
 		)
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/3a3a9b01-b73b-4ccd-9cf4-ad4078db162d"
-					(reference "#PWR045")
+					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -3409,7 +3606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b47b4e09-02b7-4b7f-902a-a1c92221e90b")
-		(property "Reference" "#PWR0605"
+		(property "Reference" "#PWR0610"
 			(at 129.54 93.98 0)
 			(effects
 				(font
@@ -3459,13 +3656,79 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/3a3a9b01-b73b-4ccd-9cf4-ad4078db162d"
-					(reference "#PWR0605")
+					(reference "#PWR0610")
 					(unit 1)
 				)
 			)
 			(project "PSU"
 				(path "/f401893a-11a3-4ab1-bc5f-f13016997d2d"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 123.19 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf471aff-c03d-43fe-bee0-caed56a86ef4")
+		(property "Reference" "#PWR0608"
+			(at 123.19 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 123.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 123.19 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6206704c-bef5-40ae-bc99-72b2073c5f04")
+		)
+		(instances
+			(project "Sequencer"
+				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/3a3a9b01-b73b-4ccd-9cf4-ad4078db162d"
+					(reference "#PWR0608")
 					(unit 1)
 				)
 			)
@@ -3481,7 +3744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4df31f6-fc81-436b-977a-6c5872d1fa4d")
-		(property "Reference" "#PWR0607"
+		(property "Reference" "#PWR0611"
 			(at 143.51 132.08 0)
 			(effects
 				(font
@@ -3532,7 +3795,74 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/3a3a9b01-b73b-4ccd-9cf4-ad4078db162d"
-					(reference "#PWR0607")
+					(reference "#PWR0611")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 63.5 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7574c06-8f49-478b-9269-75c8fb6fce83")
+		(property "Reference" "#PWR0601"
+			(at 67.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 59.69 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 63.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96417c7a-d314-4d19-bc55-89ccac70028a")
+		)
+		(instances
+			(project "Sequencer"
+				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/3a3a9b01-b73b-4ccd-9cf4-ad4078db162d"
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -3548,7 +3878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce226c63-fd28-4ab6-9d53-e36c7c445fd5")
-		(property "Reference" "#PWR0601"
+		(property "Reference" "#PWR0605"
 			(at 100.33 93.98 0)
 			(effects
 				(font
@@ -3598,7 +3928,7 @@
 		(instances
 			(project "Sequencer"
 				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/3a3a9b01-b73b-4ccd-9cf4-ad4078db162d"
-					(reference "#PWR0601")
+					(reference "#PWR0605")
 					(unit 1)
 				)
 			)
@@ -3681,138 +4011,6 @@
 			(project "PSU"
 				(path "/f401893a-11a3-4ab1-bc5f-f13016997d2d"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 123.19 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7d28798-8a93-41fe-a05d-dc1260fc36f3")
-		(property "Reference" "#PWR0606"
-			(at 123.19 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 123.19 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 123.19 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0dfd0aa8-b506-42e3-b28b-2c084c10cb5a")
-		)
-		(instances
-			(project "Sequencer"
-				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/3a3a9b01-b73b-4ccd-9cf4-ad4078db162d"
-					(reference "#PWR0606")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 156.21 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1fc24cd-6bde-4b0b-8c04-39d1610c18e5")
-		(property "Reference" "#PWR0610"
-			(at 156.21 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 156.21 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 156.21 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63cdf492-6978-4735-b27d-5f92f3cbbee0")
-		)
-		(instances
-			(project "Sequencer"
-				(path "/bb3f736c-029c-4f1c-9c8c-1e3d4a336366/3a3a9b01-b73b-4ccd-9cf4-ad4078db162d"
-					(reference "#PWR0610")
 					(unit 1)
 				)
 			)
