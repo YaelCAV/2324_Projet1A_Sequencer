@@ -3597,6 +3597,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 254) (xy 139.7 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38bb70f2-ddae-46a2-846b-6fc0e9feb92f")
+	)
+	(wire
+		(pts
 			(xy 279.4 97.79) (xy 283.21 97.79)
 		)
 		(stroke
@@ -3904,6 +3914,16 @@
 			(type default)
 		)
 		(uuid "5faa763d-4568-489c-b41b-03bb7fba84ea")
+	)
+	(wire
+		(pts
+			(xy 151.13 246.38) (xy 139.7 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd50646-9161-4204-b669-5d1aa3ed7ea4")
 	)
 	(wire
 		(pts
@@ -4497,6 +4517,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 251.46) (xy 139.7 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6dbf3e9-3c1e-4422-896d-6407ce2a0080")
+	)
+	(wire
+		(pts
 			(xy 45.72 80.01) (xy 44.45 80.01)
 		)
 		(stroke
@@ -4617,6 +4647,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 256.54) (xy 139.7 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b87cdaac-251b-4d01-9c87-726f48652698")
+	)
+	(wire
+		(pts
 			(xy 88.9 110.49) (xy 93.98 110.49)
 		)
 		(stroke
@@ -4694,6 +4734,16 @@
 			(type default)
 		)
 		(uuid "c8893f75-30b4-4991-bb39-bdb0819a14f7")
+	)
+	(wire
+		(pts
+			(xy 151.13 248.92) (xy 139.7 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca58e45f-0d5e-43ff-bfe4-83716a2761db")
 	)
 	(wire
 		(pts
@@ -5165,6 +5215,60 @@
 		)
 		(uuid "d22463f7-37bd-4b35-8e81-2afddc56cc16")
 	)
+	(text "Inverser 8-a-15"
+		(exclude_from_sim no)
+		(at 162.814 126.238 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ff6a66c6-bd24-468d-b9f8-ee4b8fcbac2b")
+	)
+	(label "B3_B"
+		(at 139.7 233.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "003caac2-5ee6-4754-b19a-1939ac567110")
+	)
+	(label "B11"
+		(at 143.51 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01227085-cf54-41bf-a0c2-dd187586cbc1")
+	)
+	(label "B15"
+		(at 143.51 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05c9c0d3-4f26-49d0-8b8a-572c144fa411")
+	)
+	(label "B9"
+		(at 143.51 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08cfebc1-47cc-44a1-8f2b-2c9733fb1ea9")
+	)
 	(label "B1_R"
 		(at 233.68 63.5 0)
 		(fields_autoplaced yes)
@@ -5175,6 +5279,17 @@
 			(justify left bottom)
 		)
 		(uuid "08db25eb-7ca1-4c74-8b54-0859982fdfb3")
+	)
+	(label "B4_R"
+		(at 139.7 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "093dfed5-6799-4abc-94b7-d420d7f8cc76")
 	)
 	(label "B13_R"
 		(at 367.03 62.23 0)
@@ -5187,6 +5302,83 @@
 		)
 		(uuid "09411dd0-7105-4132-84c4-076854809ea2")
 	)
+	(label "B2_B"
+		(at 139.7 231.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b9110f9-ae4b-4ea5-bdcb-5e8c6787a66e")
+	)
+	(label "B7"
+		(at 143.51 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bde7907-0e61-4eb7-979b-69b040cc4df1")
+	)
+	(label "B14_B"
+		(at 151.13 248.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f4a9d40-4d9b-4302-9102-fe2cd11c5542")
+	)
+	(label "B5"
+		(at 143.51 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11b71729-4c5f-4bae-8c61-1e5cba1119d3")
+	)
+	(label "B14"
+		(at 375.92 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "12018fac-85de-45b8-9904-654b78124952")
+	)
+	(label "B13_R"
+		(at 139.7 199.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "128bbbb7-f5cb-41c4-b120-d8ee2729c4bd")
+	)
+	(label "B8"
+		(at 330.2 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13247b7a-8e93-4d02-8831-1c3a121f9fbf")
+	)
 	(label "B6_G"
 		(at 279.4 100.33 0)
 		(fields_autoplaced yes)
@@ -5197,6 +5389,28 @@
 			(justify left bottom)
 		)
 		(uuid "1bea6729-e381-44e4-954b-d953cf82fbf5")
+	)
+	(label "B6"
+		(at 143.51 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c8b4de6-50d2-4547-945c-9c1829733c8d")
+	)
+	(label "B13_B"
+		(at 152.4 251.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "202bdfbf-e8a8-4772-bdd8-c0b93cd935aa")
 	)
 	(label "B7_G"
 		(at 279.4 134.62 0)
@@ -5209,6 +5423,61 @@
 		)
 		(uuid "247a0f99-0f3b-4d8a-9e48-585d3b2d7158")
 	)
+	(label "B6_B"
+		(at 139.7 241.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26b2e862-c8a1-4355-bf81-8ab8cf2cdbb6")
+	)
+	(label "B11_R"
+		(at 139.7 194.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2891902d-ab29-468d-ae48-29cc1ae4d2a7")
+	)
+	(label "B9_B"
+		(at 139.7 261.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28da10ad-0ecd-4edd-98e8-1730303afd3d")
+	)
+	(label "B8"
+		(at 143.51 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "299d1dea-48c1-4d4e-8f03-359a445c45da")
+	)
+	(label "B8_R"
+		(at 139.7 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ae110b5-bc9d-4ca1-ac59-81e867bd191a")
+	)
 	(label "B5_G"
 		(at 279.4 66.04 0)
 		(fields_autoplaced yes)
@@ -5219,6 +5488,17 @@
 			(justify left bottom)
 		)
 		(uuid "346f0c16-c01b-4316-95db-c686691cb8f2")
+	)
+	(label "B12"
+		(at 143.51 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b127c87-6c2c-4c48-a357-34b06bcb5c7f")
 	)
 	(label "B12_R"
 		(at 367.03 27.94 0)
@@ -5231,6 +5511,28 @@
 		)
 		(uuid "3b86411c-714c-4d7f-9601-43441e9b31cf")
 	)
+	(label "B12_B"
+		(at 152.4 254 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3da214c3-f069-4d37-ac49-f1994560926b")
+	)
+	(label "B13"
+		(at 143.51 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42570d32-ab64-4a6e-a42e-cdc134ec1850")
+	)
 	(label "B10_R"
 		(at 321.31 96.52 0)
 		(fields_autoplaced yes)
@@ -5241,6 +5543,17 @@
 			(justify left bottom)
 		)
 		(uuid "430c0939-ff89-40cf-a745-0f3ceb0f101b")
+	)
+	(label "B14"
+		(at 143.51 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43893046-9b27-4270-9f1b-7e5960a603cb")
 	)
 	(label "B2_G"
 		(at 233.68 100.33 0)
@@ -5253,6 +5566,17 @@
 		)
 		(uuid "4396be0a-7d94-473a-9432-6f4bc65d1589")
 	)
+	(label "B2"
+		(at 242.57 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "46e24e13-bebb-40e4-9597-91b18805c61b")
+	)
 	(label "B6_R"
 		(at 279.4 97.79 0)
 		(fields_autoplaced yes)
@@ -5263,6 +5587,17 @@
 			(justify left bottom)
 		)
 		(uuid "49680c4c-b797-4583-916b-5d8c8c53c23d")
+	)
+	(label "B0"
+		(at 143.51 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b20f28d-e95f-4239-b83e-dc6dc685a3d7")
 	)
 	(label "B2_R"
 		(at 233.68 97.79 0)
@@ -5275,6 +5610,17 @@
 		)
 		(uuid "5230476e-2ef3-45d5-aa10-1d118242f75f")
 	)
+	(label "B1"
+		(at 242.57 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "54d2e89d-8273-4a3d-9af7-c0075b6d2aa5")
+	)
 	(label "B0_G"
 		(at 233.68 31.75 0)
 		(fields_autoplaced yes)
@@ -5285,6 +5631,17 @@
 			(justify left bottom)
 		)
 		(uuid "55e42dec-8d4c-4077-9582-7152c46c49d1")
+	)
+	(label "B9"
+		(at 330.2 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55f47d22-d65b-4793-a2cc-4bda44d6541d")
 	)
 	(label "B9_G"
 		(at 321.31 64.77 0)
@@ -5330,6 +5687,28 @@
 		)
 		(uuid "5e5b24bd-0679-4376-8c9a-f33c3e45acfe")
 	)
+	(label "B14_R"
+		(at 139.7 201.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "605c902e-8da4-4ac7-bc11-739ff9c9ab8c")
+	)
+	(label "B10_B"
+		(at 139.7 259.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "624fad68-c1e4-429a-ac20-ef8f8210e635")
+	)
 	(label "B14_B"
 		(at 367.03 101.6 0)
 		(fields_autoplaced yes)
@@ -5340,6 +5719,17 @@
 			(justify left bottom)
 		)
 		(uuid "652e9920-ac51-424e-8310-a0ae7971acf5")
+	)
+	(label "B2_R"
+		(at 139.7 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66611091-19df-48ca-8829-6875096ba5a3")
 	)
 	(label "B15_B"
 		(at 367.03 135.89 0)
@@ -5375,6 +5765,17 @@
 		(uuid "6efb8ae4-93bd-4e92-8dd4-094721ba3002")
 	)
 	(label "B0_R"
+		(at 139.7 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fdfd070-2780-4644-ad08-d76068e2fd57")
+	)
+	(label "B0_R"
 		(at 233.68 29.21 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5407,6 +5808,39 @@
 		)
 		(uuid "7558b52b-ed25-4ae8-824a-5f3ec4964455")
 	)
+	(label "B4"
+		(at 288.29 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "770a6c39-1c0c-4adb-b705-838a7d7c428d")
+	)
+	(label "B4_B"
+		(at 139.7 236.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7afd007d-9f1a-45f0-94e3-28d7180b653b")
+	)
+	(label "B1"
+		(at 143.51 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bd86ad8-7748-4f2a-8212-1ffde80de22b")
+	)
 	(label "B7_R"
 		(at 279.4 132.08 0)
 		(fields_autoplaced yes)
@@ -5417,6 +5851,17 @@
 			(justify left bottom)
 		)
 		(uuid "7f099544-5faf-4723-80f0-5b2d79950ce9")
+	)
+	(label "B10_R"
+		(at 139.7 191.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f74d2d6-f56e-4357-8655-2b758831b1e9")
 	)
 	(label "B15_R"
 		(at 367.03 130.81 0)
@@ -5440,6 +5885,17 @@
 		)
 		(uuid "825534ba-17c1-4c9c-855c-6471a72b0b79")
 	)
+	(label "B11"
+		(at 330.2 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d29d41a-46cc-44cb-8f8f-8c01c6c23398")
+	)
 	(label "B4_B"
 		(at 279.4 34.29 0)
 		(fields_autoplaced yes)
@@ -5461,6 +5917,61 @@
 			(justify left bottom)
 		)
 		(uuid "964ed51c-afa7-4a82-9446-f2dee6ea5c51")
+	)
+	(label "B2"
+		(at 143.51 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99220f2e-b9d3-4590-ad5a-a8e456c7654b")
+	)
+	(label "B13"
+		(at 375.92 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99cce3fe-4c81-4252-9bd4-50459b88053a")
+	)
+	(label "B1_R"
+		(at 139.7 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c2e4031-0c6d-409f-a784-a64545455229")
+	)
+	(label "B4"
+		(at 143.51 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d39ff1d-1607-4987-b713-aa7cbc306019")
+	)
+	(label "B5_R"
+		(at 139.7 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f191bae-75fd-424d-aeab-186c1a2c19b7")
 	)
 	(label "B8_B"
 		(at 321.31 33.02 0)
@@ -5484,6 +5995,28 @@
 		)
 		(uuid "a1f908ae-e899-4e7e-afa9-efd5e133519d")
 	)
+	(label "B3"
+		(at 143.51 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8a3588c-8b04-4c11-abc2-25a2f31847c6")
+	)
+	(label "B7_B"
+		(at 139.7 243.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abbd7b08-e7b3-4c8d-8c98-dee3591ca315")
+	)
 	(label "B4_G"
 		(at 279.4 31.75 0)
 		(fields_autoplaced yes)
@@ -5494,6 +6027,39 @@
 			(justify left bottom)
 		)
 		(uuid "ae1eb807-dd1e-45ef-86a8-0bf46a0273c5")
+	)
+	(label "B5"
+		(at 288.29 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0371067-42fa-475c-aa0c-03aa7f185522")
+	)
+	(label "B15_R"
+		(at 139.7 204.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1245102-ef19-40c5-9193-419ad69468d7")
+	)
+	(label "B11_B"
+		(at 153.67 256.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b42232c9-3342-4119-bdcb-362a955d04cc")
 	)
 	(label "B9_B"
 		(at 321.31 67.31 0)
@@ -5528,6 +6094,39 @@
 		)
 		(uuid "b7aaf273-ae79-4971-8b48-e412a3d80b62")
 	)
+	(label "B7_R"
+		(at 139.7 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7b37d27-a65c-4f31-a7ca-aedbf4ac95c3")
+	)
+	(label "B3_R"
+		(at 139.7 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b83908d0-eff0-4af6-a76c-6bc8f5e49b86")
+	)
+	(label "B5_B"
+		(at 139.7 238.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdc2ea55-457c-4e62-a5f8-75b4055b80a3")
+	)
 	(label "B12_G"
 		(at 367.03 30.48 0)
 		(fields_autoplaced yes)
@@ -5550,6 +6149,28 @@
 		)
 		(uuid "c187ded6-1552-410b-8984-a3def582912b")
 	)
+	(label "B10"
+		(at 330.2 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "caaa38b1-d5c7-49e1-8c0a-875d75c186f1")
+	)
+	(label "B15"
+		(at 375.92 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cac40c37-458b-4d67-ac85-4dcbb7ebf827")
+	)
 	(label "B14_R"
 		(at 367.03 96.52 0)
 		(fields_autoplaced yes)
@@ -5561,6 +6182,17 @@
 		)
 		(uuid "cf9332e6-1c27-49c0-bfc2-f9a8c29076e5")
 	)
+	(label "B10"
+		(at 143.51 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d01a31ec-c183-4642-a792-88baeef95283")
+	)
 	(label "B12_B"
 		(at 367.03 33.02 0)
 		(fields_autoplaced yes)
@@ -5571,6 +6203,28 @@
 			(justify left bottom)
 		)
 		(uuid "d037a365-9800-412e-8215-381bf4a30b1d")
+	)
+	(label "B3"
+		(at 242.57 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1bf40e7-e69d-4a21-8fe0-76594196a2d6")
+	)
+	(label "B12"
+		(at 375.92 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1e06e62-d64e-47d1-ad8a-bba4dea9af36")
 	)
 	(label "B10_G"
 		(at 321.31 99.06 0)
@@ -5605,6 +6259,17 @@
 		)
 		(uuid "d5660cb1-3494-4415-a3d8-cf273d5f3801")
 	)
+	(label "B9_R"
+		(at 139.7 189.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d58467cf-36f5-41f2-8443-472ff3b741bd")
+	)
 	(label "B14_G"
 		(at 367.03 99.06 0)
 		(fields_autoplaced yes)
@@ -5616,6 +6281,17 @@
 		)
 		(uuid "da5043db-b4cb-47d4-af09-944d795bce6a")
 	)
+	(label "B15_B"
+		(at 151.13 246.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db57ea8d-9bc0-4163-b773-85dba08cb9cd")
+	)
 	(label "B3_R"
 		(at 233.68 132.08 0)
 		(fields_autoplaced yes)
@@ -5626,6 +6302,17 @@
 			(justify left bottom)
 		)
 		(uuid "e04e7041-c764-474b-9e9f-598dc9b05039")
+	)
+	(label "B6"
+		(at 288.29 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0638c25-2ae8-49c1-8918-c0bcbfdff9c7")
 	)
 	(label "B10_B"
 		(at 321.31 101.6 0)
@@ -5649,6 +6336,61 @@
 		)
 		(uuid "e27da994-6b98-4d59-8844-f120c01bd045")
 	)
+	(label "B6_R"
+		(at 139.7 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4e66ea7-ee02-4d7d-91da-2db3e1c45ce2")
+	)
+	(label "B0"
+		(at 242.57 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8daa10c-c88e-47ec-b29e-94781505df95")
+	)
+	(label "B7"
+		(at 288.29 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9b26441-fccf-4ee5-836a-08cd48673463")
+	)
+	(label "B8_B"
+		(at 139.7 264.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea8dc107-daa5-4cd1-ab6f-47c244975388")
+	)
+	(label "B0_B"
+		(at 139.7 226.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebd7cb00-8db5-4694-9327-f355f4475c95")
+	)
 	(label "B15_G"
 		(at 367.03 133.35 0)
 		(fields_autoplaced yes)
@@ -5671,6 +6413,17 @@
 		)
 		(uuid "ee417484-4e94-41cc-b8df-fbe43af9df7e")
 	)
+	(label "B1_B"
+		(at 139.7 228.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1860579-86cf-4997-b11f-e673f7e00973")
+	)
 	(label "B11_R"
 		(at 321.31 130.81 0)
 		(fields_autoplaced yes)
@@ -5682,6 +6435,17 @@
 		)
 		(uuid "f40ce996-5c6b-44d2-ac16-aa9efff375a2")
 	)
+	(label "B12_R"
+		(at 139.7 196.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa6c37ba-5502-4ce7-a65a-1190850f6913")
+	)
 	(label "B13_G"
 		(at 367.03 64.77 0)
 		(fields_autoplaced yes)
@@ -5692,78 +6456,6 @@
 			(justify left bottom)
 		)
 		(uuid "fa9bedec-8c6f-4159-9895-d3169164ba1a")
-	)
-	(hierarchical_label "B15_R"
-		(shape input)
-		(at 139.7 204.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "00b3b52d-7b37-41b4-9768-61c84f308c68")
-	)
-	(hierarchical_label "B8_B"
-		(shape input)
-		(at 139.7 246.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0b919f8e-9e3d-4d0f-9d39-09581b7e0bd2")
-	)
-	(hierarchical_label "B0_R"
-		(shape input)
-		(at 139.7 166.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "12747e5d-3e9a-45a5-8ec9-2c58bf2058f7")
-	)
-	(hierarchical_label "B11"
-		(shape input)
-		(at 330.2 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "183aaf72-3ea9-46de-85cf-b57aa9ef355d")
-	)
-	(hierarchical_label "A5"
-		(shape input)
-		(at 143.51 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "21ce0e27-0c9a-4f6d-906c-43c53b6145e2")
-	)
-	(hierarchical_label "B13_R"
-		(shape input)
-		(at 139.7 199.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "222a85f6-3b29-4f70-973c-09c9ec1df041")
 	)
 	(hierarchical_label "Reset"
 		(shape input)
@@ -5789,78 +6481,6 @@
 		)
 		(uuid "28aae1dd-a112-441c-afbc-15595e5939ed")
 	)
-	(hierarchical_label "B15"
-		(shape input)
-		(at 375.92 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2981b583-9cb3-471e-90b1-eeadd13123f1")
-	)
-	(hierarchical_label "B8_R"
-		(shape input)
-		(at 139.7 186.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2b1d74f5-9ae5-49b0-976b-474f16bea970")
-	)
-	(hierarchical_label "B1"
-		(shape input)
-		(at 242.57 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "336480f4-2114-4ffc-8664-f36c16084b60")
-	)
-	(hierarchical_label "A6"
-		(shape input)
-		(at 143.51 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "39ab96b1-cf38-4564-b42b-95df9a586b83")
-	)
-	(hierarchical_label "B14"
-		(shape input)
-		(at 375.92 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3c89eda2-9975-4735-b954-1a1a401cff7e")
-	)
-	(hierarchical_label "B6"
-		(shape input)
-		(at 143.51 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3d6eee56-4df4-4a1e-a318-6ed96cea4310")
-	)
 	(hierarchical_label "INTB_Boutons"
 		(shape input)
 		(at 45.72 62.23 180)
@@ -5872,102 +6492,6 @@
 			(justify right)
 		)
 		(uuid "3ed8382a-7a86-493a-bf32-945b17ec2376")
-	)
-	(hierarchical_label "A0"
-		(shape input)
-		(at 143.51 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "49af6e21-0360-40d7-9ae3-649a142cb1bb")
-	)
-	(hierarchical_label "B1"
-		(shape input)
-		(at 143.51 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4b77957d-aac9-4b54-bc60-f9001ddaed66")
-	)
-	(hierarchical_label "B7"
-		(shape input)
-		(at 143.51 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4c711585-27b3-4d43-a96d-c17f92945758")
-	)
-	(hierarchical_label "A1"
-		(shape input)
-		(at 143.51 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4ce74797-7dc7-4bab-a2e4-d2db0d7ac747")
-	)
-	(hierarchical_label "B5"
-		(shape input)
-		(at 143.51 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4dc12cf2-4fd5-4eb1-8435-017db7981428")
-	)
-	(hierarchical_label "B4"
-		(shape input)
-		(at 288.29 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "50768dc6-ab1a-442f-84d3-b05e6c3412de")
-	)
-	(hierarchical_label "B12_B"
-		(shape input)
-		(at 139.7 256.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "53dfeff2-51e9-4787-81d5-506afe16b1b6")
-	)
-	(hierarchical_label "B9"
-		(shape input)
-		(at 330.2 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "54f98b9e-a3a9-49ad-8c8a-1d5dfaed4a40")
 	)
 	(hierarchical_label "Reset"
 		(shape input)
@@ -5981,30 +6505,6 @@
 		)
 		(uuid "55233f20-c37a-489b-b411-2176e9df9636")
 	)
-	(hierarchical_label "B5_B"
-		(shape input)
-		(at 139.7 238.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5940dac3-42af-4d86-a6fe-e0149f5dae6e")
-	)
-	(hierarchical_label "B12"
-		(shape input)
-		(at 375.92 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5cf2f1c2-9aad-4ec0-be31-a0de8d40315b")
-	)
 	(hierarchical_label "SDA LED_Driver"
 		(shape input)
 		(at 45.72 195.58 180)
@@ -6016,126 +6516,6 @@
 			(justify right)
 		)
 		(uuid "6165b7d2-ebdd-4c67-8b68-eded3c021487")
-	)
-	(hierarchical_label "B8"
-		(shape input)
-		(at 330.2 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "61fa7e30-aa81-4b72-b733-a45ccc26e615")
-	)
-	(hierarchical_label "B0"
-		(shape input)
-		(at 143.51 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "63c0a4c8-0771-4934-b4ab-197f1171111c")
-	)
-	(hierarchical_label "B3_B"
-		(shape input)
-		(at 139.7 233.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6c7668e9-f19c-4c84-b93b-70e11156d7bb")
-	)
-	(hierarchical_label "B13_B"
-		(shape input)
-		(at 139.7 259.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6e738de9-81cb-4076-82e1-f86f2205d03c")
-	)
-	(hierarchical_label "B0_B"
-		(shape input)
-		(at 139.7 226.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6f5f5581-d877-41ac-8c8e-ea6101830f1e")
-	)
-	(hierarchical_label "B14_B"
-		(shape input)
-		(at 139.7 261.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "701f9bad-558c-4d6c-b7d3-56539ee99a7a")
-	)
-	(hierarchical_label "B13"
-		(shape input)
-		(at 375.92 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7da9f38e-8fff-4ca3-a4ea-408063ba255a")
-	)
-	(hierarchical_label "B6_R"
-		(shape input)
-		(at 139.7 181.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7ef88182-e34b-484b-882a-b5fe2965c381")
-	)
-	(hierarchical_label "B4_B"
-		(shape input)
-		(at 139.7 236.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8197bbc6-10e0-4c97-b7c9-4fedb24741bc")
-	)
-	(hierarchical_label "A7"
-		(shape input)
-		(at 143.51 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8b3bcb9a-738b-41b7-8fe2-67d8fa036cfd")
 	)
 	(hierarchical_label "INTA_Boutons"
 		(shape input)
@@ -6149,90 +6529,6 @@
 		)
 		(uuid "8dbe9ffe-87f7-45c2-9c46-d582c7e59702")
 	)
-	(hierarchical_label "B12_R"
-		(shape input)
-		(at 139.7 196.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9008540e-4d62-4dd6-b340-00d534d74f7c")
-	)
-	(hierarchical_label "B10_R"
-		(shape input)
-		(at 139.7 191.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "90da0306-ccad-4dd3-b9d7-d3980c59ffb7")
-	)
-	(hierarchical_label "A4"
-		(shape input)
-		(at 143.51 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "922570ad-52f9-4e7d-a327-5fafdbbc03bc")
-	)
-	(hierarchical_label "B10_B"
-		(shape input)
-		(at 139.7 251.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "93f48b5f-7e99-435a-9aec-910e6046429c")
-	)
-	(hierarchical_label "B2_B"
-		(shape input)
-		(at 139.7 231.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "941c43ec-f440-4ca3-9af1-c58cc69b9ae4")
-	)
-	(hierarchical_label "B5_R"
-		(shape input)
-		(at 139.7 179.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9a4a4277-22af-4c12-b7e0-f0fd603296c7")
-	)
-	(hierarchical_label "B5"
-		(shape input)
-		(at 288.29 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9bbece2e-a6c7-44c1-94ab-4dfeee3b68de")
-	)
 	(hierarchical_label "SCK LED_Driver"
 		(shape input)
 		(at 45.72 198.12 180)
@@ -6245,270 +6541,6 @@
 		)
 		(uuid "9cc41dd6-4eac-475f-9357-3f1e512828db")
 	)
-	(hierarchical_label "B15_B"
-		(shape input)
-		(at 139.7 264.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a11ee8ee-3698-49b0-b0c1-fcb10f23130a")
-	)
-	(hierarchical_label "A2"
-		(shape input)
-		(at 143.51 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a1d49f35-8c8f-4bbd-b928-8cf8982cf9cf")
-	)
-	(hierarchical_label "B1_R"
-		(shape input)
-		(at 139.7 168.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a24e1f09-2e12-4064-8808-fa33a0c5fb8e")
-	)
-	(hierarchical_label "B3"
-		(shape input)
-		(at 143.51 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a2c98c1b-bead-4cbb-8b1e-3bb03a186a33")
-	)
-	(hierarchical_label "B4"
-		(shape input)
-		(at 143.51 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a2c9ab79-6652-48ba-b2e6-f996d5b1ba67")
-	)
-	(hierarchical_label "B11_R"
-		(shape input)
-		(at 139.7 194.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a552b745-486a-4810-9793-915c92381db3")
-	)
-	(hierarchical_label "B7"
-		(shape input)
-		(at 288.29 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b17bea92-b3f3-4738-a5d2-ec6cb75404fc")
-	)
-	(hierarchical_label "B7_B"
-		(shape input)
-		(at 139.7 243.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bb269cd6-199c-4d2d-8b6d-1c55bb21c44c")
-	)
-	(hierarchical_label "B3"
-		(shape input)
-		(at 242.57 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bf7faf58-6816-4e77-bd73-6e2c2e956d3e")
-	)
-	(hierarchical_label "B11_B"
-		(shape input)
-		(at 139.7 254 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c1ad8c81-9871-4c54-be34-b64c2db0ba2c")
-	)
-	(hierarchical_label "B10"
-		(shape input)
-		(at 330.2 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c2e84d33-6db0-4a03-b3ec-dd618d7f1dad")
-	)
-	(hierarchical_label "B2_R"
-		(shape input)
-		(at 139.7 171.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c3321b0f-a21a-48a7-9113-9f53f728f101")
-	)
-	(hierarchical_label "B3_R"
-		(shape input)
-		(at 139.7 173.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cb295ddc-60ca-4af7-b0ed-d7a2ea8558dc")
-	)
-	(hierarchical_label "B7_R"
-		(shape input)
-		(at 139.7 184.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cc907c95-1c01-4955-b440-c8491a88c796")
-	)
-	(hierarchical_label "B14_R"
-		(shape input)
-		(at 139.7 201.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d015bfef-49c8-4d0d-be31-2154976bc79f")
-	)
-	(hierarchical_label "B6"
-		(shape input)
-		(at 288.29 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d7cbc90d-67ea-488b-a752-2d0c47c5d3b1")
-	)
-	(hierarchical_label "B4_R"
-		(shape input)
-		(at 139.7 176.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "db4f5038-d269-4808-b651-341e7ed56add")
-	)
-	(hierarchical_label "B6_B"
-		(shape input)
-		(at 139.7 241.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "db87ef1b-0c5c-498d-99d7-9fa885d7d495")
-	)
-	(hierarchical_label "B2"
-		(shape input)
-		(at 143.51 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dee1b713-3fc0-4590-a95f-33b9fccd5b89")
-	)
-	(hierarchical_label "B2"
-		(shape input)
-		(at 242.57 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e4c20ec8-9872-499a-aca3-ecb80e11a3b1")
-	)
-	(hierarchical_label "A3"
-		(shape input)
-		(at 143.51 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e93b5edd-bd9d-4ae1-895c-71b2b81592d8")
-	)
-	(hierarchical_label "B9_B"
-		(shape input)
-		(at 139.7 248.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f0117125-2f42-4121-ad20-daa9211a42dc")
-	)
 	(hierarchical_label "Reset"
 		(shape input)
 		(at 93.98 118.11 180)
@@ -6520,42 +6552,6 @@
 			(justify right)
 		)
 		(uuid "f32afd63-7fba-4007-a8c7-2b69d184349e")
-	)
-	(hierarchical_label "B9_R"
-		(shape input)
-		(at 139.7 189.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f33552e5-d171-492b-848c-e5c7815ad983")
-	)
-	(hierarchical_label "B0"
-		(shape input)
-		(at 242.57 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f4fff20f-0d42-42aa-813d-8d22f51d79e0")
-	)
-	(hierarchical_label "B1_B"
-		(shape input)
-		(at 139.7 228.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f9873ed2-3c4d-4f22-be33-0bc58cecd27d")
 	)
 	(hierarchical_label "SDA Expandeur_Boutons"
 		(shape input)
@@ -6594,7 +6590,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 62.23 0)
 			(effects
 				(font
@@ -6661,7 +6657,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 373.38 96.52 0)
 			(effects
 				(font
@@ -6728,7 +6724,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 373.38 133.35 0)
 			(effects
 				(font
@@ -7062,7 +7058,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 373.38 30.48 0)
 			(effects
 				(font
@@ -7129,7 +7125,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 240.03 102.87 0)
 			(effects
 				(font
@@ -7196,7 +7192,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 240.03 31.75 0)
 			(effects
 				(font
@@ -7463,7 +7459,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 285.75 34.29 0)
 			(effects
 				(font
@@ -7597,7 +7593,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 293.37 43.18 0)
 			(effects
 				(font
@@ -7664,7 +7660,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 373.38 130.81 0)
 			(effects
 				(font
@@ -7932,7 +7928,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 285.75 97.79 0)
 			(effects
 				(font
@@ -7999,7 +7995,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 335.28 144.78 0)
 			(effects
 				(font
@@ -8920,7 +8916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 240.03 97.79 0)
 			(effects
 				(font
@@ -8987,7 +8983,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 247.65 77.47 0)
 			(effects
 				(font
@@ -9255,7 +9251,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 240.03 100.33 0)
 			(effects
 				(font
@@ -9388,7 +9384,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 67.31 0)
 			(effects
 				(font
@@ -9455,7 +9451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 335.28 76.2 0)
 			(effects
 				(font
@@ -9656,7 +9652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 373.38 67.31 0)
 			(effects
 				(font
@@ -10122,7 +10118,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 240.03 66.04 0)
 			(effects
 				(font
@@ -10189,7 +10185,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 373.38 27.94 0)
 			(effects
 				(font
@@ -10256,7 +10252,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 285.75 29.21 0)
 			(effects
 				(font
@@ -10323,7 +10319,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 285.75 132.08 0)
 			(effects
 				(font
@@ -10686,7 +10682,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 27.94 0)
 			(effects
 				(font
@@ -10753,7 +10749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 64.77 0)
 			(effects
 				(font
@@ -11087,7 +11083,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 285.75 134.62 0)
 			(effects
 				(font
@@ -11154,7 +11150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 373.38 64.77 0)
 			(effects
 				(font
@@ -11887,7 +11883,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 285.75 100.33 0)
 			(effects
 				(font
@@ -11954,7 +11950,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 373.38 62.23 0)
 			(effects
 				(font
@@ -12088,7 +12084,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 381 110.49 0)
 			(effects
 				(font
@@ -12355,7 +12351,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 285.75 31.75 0)
 			(effects
 				(font
@@ -12422,7 +12418,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 373.38 135.89 0)
 			(effects
 				(font
@@ -12489,7 +12485,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 33.02 0)
 			(effects
 				(font
@@ -12623,7 +12619,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 96.52 0)
 			(effects
 				(font
@@ -12756,7 +12752,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 247.65 43.18 0)
 			(effects
 				(font
@@ -13241,7 +13237,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 293.37 146.05 0)
 			(effects
 				(font
@@ -13575,7 +13571,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 293.37 111.76 0)
 			(effects
 				(font
@@ -13642,7 +13638,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 99.06 0)
 			(effects
 				(font
@@ -13709,7 +13705,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 381 144.78 0)
 			(effects
 				(font
@@ -13776,7 +13772,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 130.81 0)
 			(effects
 				(font
@@ -14669,7 +14665,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 285.75 66.04 0)
 			(effects
 				(font
@@ -15002,7 +14998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 240.03 68.58 0)
 			(effects
 				(font
@@ -15069,7 +15065,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 373.38 101.6 0)
 			(effects
 				(font
@@ -15202,7 +15198,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 373.38 33.02 0)
 			(effects
 				(font
@@ -15269,7 +15265,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 240.03 63.5 0)
 			(effects
 				(font
@@ -15403,7 +15399,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 247.65 111.76 0)
 			(effects
 				(font
@@ -15470,7 +15466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 101.6 0)
 			(effects
 				(font
@@ -15537,7 +15533,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 240.03 34.29 0)
 			(effects
 				(font
@@ -15604,7 +15600,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 285.75 137.16 0)
 			(effects
 				(font
@@ -15888,7 +15884,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 381 41.91 0)
 			(effects
 				(font
@@ -16023,7 +16019,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 240.03 137.16 0)
 			(effects
 				(font
@@ -16372,7 +16368,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 293.37 77.47 0)
 			(effects
 				(font
@@ -16439,7 +16435,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 240.03 132.08 0)
 			(effects
 				(font
@@ -16639,7 +16635,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 240.03 134.62 0)
 			(effects
 				(font
@@ -17507,7 +17503,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 381 76.2 0)
 			(effects
 				(font
@@ -17574,7 +17570,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 335.28 110.49 0)
 			(effects
 				(font
@@ -17641,7 +17637,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 335.28 41.91 0)
 			(effects
 				(font
@@ -17708,7 +17704,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 240.03 29.21 0)
 			(effects
 				(font
@@ -17775,7 +17771,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 135.89 0)
 			(effects
 				(font
@@ -17842,7 +17838,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 133.35 0)
 			(effects
 				(font
@@ -17976,7 +17972,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 30.48 0)
 			(effects
 				(font
@@ -18043,7 +18039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 373.38 99.06 0)
 			(effects
 				(font
@@ -18110,7 +18106,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 247.65 146.05 0)
 			(effects
 				(font
@@ -18377,7 +18373,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 285.75 63.5 0)
 			(effects
 				(font
@@ -18444,7 +18440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 285.75 68.58 0)
 			(effects
 				(font
@@ -18511,7 +18507,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 285.75 102.87 0)
 			(effects
 				(font

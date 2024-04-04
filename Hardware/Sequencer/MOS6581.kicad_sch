@@ -1531,6 +1531,18 @@
 		)
 		(uuid "03025695-854f-418c-8e29-e356a824ca7c")
 	)
+	(hierarchical_label "Audio_out"
+		(shape input)
+		(at 209.55 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a4b1ff1-48ab-4c6b-a411-9cbd4af70109")
+	)
 	(hierarchical_label "Reset"
 		(shape input)
 		(at 133.35 109.22 180)
