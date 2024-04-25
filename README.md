@@ -1,5 +1,8 @@
 # Projet-Sequenceur
-> Présentation du projet, cahier des charges, état de l'art, etc...
+> On souhaite créer un séquenceur musical qui émet des notes sur demande de l'utilisateur. Les notes doivent être variées et configurables, par exemple on souhaite pouvoir modifier leur hauteur, le nombre de répétitions par minute (bpm), et combiner les notes.
+Pour cela on utilise sur conseil de l'un de nos professeurs un générateur de son programmable de Comodore 64 (dénomée MOS 6581) sortie en 1982.
+La documentation de cette puce est facile d'accès et les possibilités qu'elle offrent satisfont nos exigences.
+Comme mode de récupération du signal de sortie nous avons finalement choisi de proposer une sortie MIDI et Jack, il n'y a pas de haut-parleur intégré à notre séquenceur. L'alimentation de notre machine se fera par ailleurs via un port USB-C.
 
 # Equipe
 * Yael CAVAILLE-VOISIN
