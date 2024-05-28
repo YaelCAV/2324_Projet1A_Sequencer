@@ -23,7 +23,7 @@ Comme mode de récupération du signal de sortie nous avons finalement choisi de
 ## Séance 6 soudure + résolution des problèmes (d'empreinte des boutons-LED RG au lieu de RB via des PCB-adaptateurs imprimés à l'ENSEA), conception 3D
 ## Séance 7 soudure + résolution de problèmes, code, conception 3D
 ## Séance 8 soudure + résolution de problèmes, code, conception 3D
-## Séance 9 code, présentation en séance
+## Séance 9 code, présentation en séance, màj des livrables, résolution de problèmes liés au PCB et au processeur !
 ## Séance 10
 
 # Livrables
