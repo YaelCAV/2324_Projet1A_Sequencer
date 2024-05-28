@@ -19,11 +19,11 @@ Comme mode de récupération du signal de sortie nous avons finalement choisi de
 ## Séance 2 rendu du diagramme d'architecture, et des 3 bons de commande de composants, révision du cahier des charges et recherche des composants.
 ## Séance 3 CAO avec Kicad, changement de composants (boutons et LEDs RGB, hauts-parleurs, ampli audio).
 ## Séance 4 fin de conception du PCB et routage complet.
-## Séance 5 récupération des composants et soudure.
-## Séance 6
-## Séance 7
-## Séance 8
-## Séance 9
+## Séance 5 récupération des composants et soudure, conception 3D, Architecture du code
+## Séance 6 soudure + résolution des problèmes (d'empreinte des boutons-LED RG au lieu de RB via des PCB-adaptateurs imprimés à l'ENSEA), conception 3D
+## Séance 7 soudure + résolution de problèmes, code, conception 3D
+## Séance 8 soudure + résolution de problèmes, code, conception 3D
+## Séance 9 code, présentation en séance
 ## Séance 10
 
 # Livrables
