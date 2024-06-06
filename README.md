@@ -24,7 +24,7 @@ Comme mode de récupération du signal de sortie nous avons finalement choisi de
 ## Séance 7 soudure + résolution de problèmes, code, conception 3D
 ## Séance 8 soudure + résolution de problèmes, code, conception 3D
 ## Séance 9 code, présentation en séance, màj des livrables, résolution de problèmes liés au PCB et au processeur !
-## Séance 10
+## Séance 10 code, création, compilation et vérification des livrables.
 
 # Livrables
 ## PCB
